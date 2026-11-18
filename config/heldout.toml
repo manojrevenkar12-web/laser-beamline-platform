@@ -1,0 +1,106 @@
+# Held-out beamline: written before the platform was tuned on dev and run once (see reports/heldout.lock).
+# Different mounts, more backlash, an actuator that wears, a camera that resets its gain, a reference
+# meter whose certificate runs out, and hot spots on other days.
+
+[campaign]
+seed = 913
+dev_seeds = [913]
+days = 14
+day_minutes = 480
+shot_cadence_s = 180
+
+[optics]
+lever_m = [5.0, 1.6]
+mount_rotation_deg = [11.0, 7.0]
+step_urad = [0.088, 0.112, 0.101, 0.094]
+reverse_ratio = [1.09, 0.90, 0.93, 1.07]
+backlash_steps = [66, 52, 81, 58]
+step_jitter = 0.05
+missed_move_prob = 0.002
+wear = [{ axis = 2, day = 6, factor = 0.65 }]
+
+[drift]
+ff_walk_urad = 0.45
+nf_walk_mm = 0.06
+ff_overnight_urad = 24.0
+nf_overnight_mm = 3.0
+warmup_ff_urad = 14.0
+warmup_nf_mm = 1.2
+warmup_tau_min = 65.0
+ff_jitter_urad = 1.2
+nf_jitter_mm = 0.09
+
+[beam]
+radius_mm = 15.0
+order = 6
+aperture_mm = 21.0
+nominal_energy_j = 10.0
+damage_fluence_j_cm2 = 3.0
+low_pulse_fraction = 0.001
+energy_jitter = 0.012
+gain_per_kelvin = -0.015
+diode_temp_c = 25.0
+diode_temp_walk_k = 0.012
+diode_temp_day_sd_k = 0.8
+
+[hotspot]
+days = [2, 10]
+peak_gain = 2.1
+radius_mm = 1.8
+cleaning_minutes = 45
+check_minutes = 15
+
+[damage]
+growth = 0.25
+max_level = 1.5
+replace_hours = 4.0        # an inspection that finds damage swaps the optic
+
+[nf_camera]
+size = 128
+mm_per_px = 0.5
+full_scale = 4095
+dark_offset = 120.0
+gradient = 80.0
+read_noise = 5.0
+photons_per_count = 2.0
+peak_counts = 2400.0
+hot_pixels = 22
+hot_pixel_growth_per_day = 5
+gain_steps = [[9, 1.6]]
+
+[ff_camera]
+size = 128
+urad_per_px = 2.0
+full_scale = 4095
+dark_offset = 110.0
+gradient = 70.0
+read_noise = 5.0
+photons_per_count = 2.0
+peak_counts = 2600.0
+spot_radius_px = 4.0
+hot_pixels = 16
+hot_pixel_growth_per_day = 4
+gain_steps = []
+
+[energy_meter]
+vendor_factor = 1.000
+drift_per_day = -0.005
+noise = 0.005
+
+[reference_meter]
+uncertainty_k2 = 0.008
+noise = 0.003
+certificate_due_day = 11
+
+[link]
+crc_error_prob = 0.004
+timeout_prob = 0.002
+
+[timing]
+move_settle_s = 1.0
+steps_per_s = 1500
+frame_s = 1.0
+preshot_s = 6.0
+dark_s = 8.0
+manual_align_min = 15.0
+cross_cal_min = 20.0

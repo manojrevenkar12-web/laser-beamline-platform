@@ -1,0 +1,109 @@
+# The simulated beamline: the truth the platform is scored against.
+# Only world/ and evals/truth.py read this file. The platform sees the beamline through its devices.
+
+[campaign]
+seed = 11
+dev_seeds = [11, 12, 13]
+days = 12
+day_minutes = 480          # one operating shift
+shot_cadence_s = 180       # the amplifiers take three minutes to recharge and cool
+
+[optics]
+# Two motorised mirrors (M1 far, M2 near) steer the beam onto the amplifier aperture (near field)
+# and into the target chamber direction (far field). Axes: M1x, M1y, M2x, M2y.
+lever_m = [6.0, 2.0]                     # distance from each mirror to the near-field relay plane
+mount_rotation_deg = [4.0, -3.0]         # x/y cross-coupling of each mount
+step_urad = [0.100, 0.094, 0.106, 0.098] # mirror angle per forward actuator step
+reverse_ratio = [0.92, 1.06, 0.95, 1.04] # reverse step size relative to forward
+backlash_steps = [38, 29, 47, 33]        # steps lost on every change of direction
+step_jitter = 0.03
+missed_move_prob = 0.0
+# wear: an actuator whose step size changes from a given day on
+wear = []
+
+[drift]
+ff_walk_urad = 0.35        # random walk per shot interval
+nf_walk_mm = 0.05
+ff_overnight_urad = 18.0   # the table settles overnight
+nf_overnight_mm = 2.5
+warmup_ff_urad = 10.0      # thermal transient as the amplifiers warm up each morning
+warmup_nf_mm = 0.9
+warmup_tau_min = 50.0
+ff_jitter_urad = 1.0       # shot-to-shot air turbulence
+nf_jitter_mm = 0.08
+
+[beam]
+radius_mm = 15.0           # super-Gaussian half width at the amplifier
+order = 6
+aperture_mm = 21.0         # hard aperture of the amplifier
+nominal_energy_j = 10.0
+damage_fluence_j_cm2 = 3.0
+low_pulse_fraction = 0.001 # front-end-only pulse used for alignment
+energy_jitter = 0.01
+gain_per_kelvin = -0.012   # amplifier gain against diode temperature
+diode_temp_c = 25.0
+diode_temp_walk_k = 0.01
+diode_temp_day_sd_k = 0.6
+
+[hotspot]
+# Dust or a coating defect modulates the near field and multiplies the local fluence.
+days = [3, 8]
+peak_gain = 1.9
+radius_mm = 2.2
+cleaning_minutes = 45      # downtime when an inspection finds a hot spot and cleans it
+check_minutes = 15         # an inspection that finds nothing
+
+[damage]
+growth = 0.25              # a damage site adds this much modulation on every later shot above threshold
+max_level = 1.5
+replace_hours = 4.0        # an inspection that finds damage swaps the optic
+
+[nf_camera]
+size = 128
+mm_per_px = 0.5
+full_scale = 4095
+dark_offset = 100.0
+gradient = 60.0            # counts across the frame
+read_noise = 4.0
+photons_per_count = 2.0
+peak_counts = 2400.0       # nominal peak at the default exposure
+hot_pixels = 14
+hot_pixel_growth_per_day = 3
+gain_steps = []            # [day, factor]: the camera gain changes (firmware reset)
+
+[ff_camera]
+size = 128
+urad_per_px = 2.0
+full_scale = 4095
+dark_offset = 100.0
+gradient = 50.0
+read_noise = 4.0
+photons_per_count = 2.0
+peak_counts = 2600.0
+spot_radius_px = 4.0
+hot_pixels = 10
+hot_pixel_growth_per_day = 2
+gain_steps = []
+
+[energy_meter]
+vendor_factor = 1.000      # the factor on the vendor certificate, applied by the meter
+drift_per_day = -0.0035    # the pyroelectric head loses sensitivity
+noise = 0.004
+
+[reference_meter]
+uncertainty_k2 = 0.008     # expanded relative uncertainty on its certificate
+noise = 0.003
+certificate_due_day = 99   # day the reference's certificate expires
+
+[link]
+crc_error_prob = 0.002     # a camera frame corrupted on the wire
+timeout_prob = 0.001       # a device does not answer
+
+[timing]
+move_settle_s = 1.0
+steps_per_s = 1500
+frame_s = 1.0              # low pulses run at 1 Hz
+preshot_s = 6.0
+dark_s = 8.0
+manual_align_min = 15.0
+cross_cal_min = 20.0

@@ -1,0 +1,21 @@
+.wrap {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.axis {
+  font-size: 12px;
+  fill: var(--muted);
+}
+
+.readout {
+  font-size: var(--size-s);
+  color: var(--muted);
+  min-height: 1.5em;
+}

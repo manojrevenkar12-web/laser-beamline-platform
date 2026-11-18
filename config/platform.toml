@@ -1,0 +1,107 @@
+# Settings of the laser-software platform. No thresholds live in code (tests/test_invariants.py checks).
+
+[devices]
+transport = "loopback"     # "tcp" in the system tests and on a real network
+timeout_s = 1.5
+retries = 2
+fault_after_failures = 3   # consecutive failures before a device counts as faulted
+
+[devices.tcp]
+host = "127.0.0.1"
+
+[reference]
+# Commissioning: where the beam should sit on each camera.
+nf_px = [63.5, 63.5]
+ff_px = [63.5, 63.5]
+nf_mm_per_px = 0.5
+ff_urad_per_px = 2.0
+
+[tolerance]
+nf_mm = 0.75               # beam centre on the amplifier aperture
+ff_urad = 5.0              # pointing into the target chamber
+energy_rel = 0.03
+realign_fraction = 0.6     # realign before a shot when the pre-shot error passes this share of tolerance
+align_target_fraction = 0.25
+
+[alignment]
+frames_per_measure = 3
+max_iterations = 10
+poke_steps = 120          # small enough to keep the far-field spot on the camera
+walk_mm = 1.0              # near-field shift of each centring walk (pointing held), for the near-field rows
+reverse_ratio_bounds = [0.5, 1.5]  # a measured reverse/forward ratio outside this is clipped
+walk_max_steps = 500       # cap per axis, so step-size scatter cannot walk the far-field spot off its camera
+damping = 0.85
+mismatch_ratio = 0.45      # |measured - predicted| / |predicted| move that counts as a model mismatch
+mismatch_strikes = 2
+mismatch_min_move = 1.0    # only moves of at least one tolerance are judged against the matrix
+stuck_fraction = 0.3       # a column below this share of the nominal response means the actuator is not moving
+schedule_every_shots = 30  # designs that realign on a schedule
+max_step_command = 4000
+max_steps_per_iteration = 1200     # a correction is scaled down to this, so step scatter keeps the spot on camera
+max_steps_uncalibrated = 300       # the same with the commissioning matrix
+travel_limit_steps = 9000   # soft limit on each axis from where the shift started; beyond it alignment stops
+failed_alignments_fault = 3 # consecutive alignments that end outside tolerance before alignment is declared faulted
+# Commissioning values from the design drawings: lever arms and the nominal step size.
+nominal_lever_m = [6.0, 2.0]
+nominal_step_urad = 0.10
+
+[camera]
+dark_frames = 4
+hot_pixel_sigma = 8.0
+hot_pixel_window = 7
+target_peak_fraction = 0.6
+max_peak_fraction = 0.85
+min_peak_fraction = 0.3
+exposure_min = 0.05
+exposure_max = 4.0
+exposure_start = 1.0
+auto_exposure_attempts = 3
+iso_aperture_factor = 3.0  # ISO 11146-2: integrate over three times the beam width
+iso_max_iterations = 10
+iso_tolerance = 0.01
+baseline_ring_px = 4       # ISO 11146-3 baseline from the frame border
+naive_threshold = 0.5      # the status quo: centroid of the bright blob, pixels above half its smoothed peak
+full_scale = 4095
+edge_margin_px = 2
+assumed_dark_fraction = 0.025  # dark level assumed by exposure control when no dark frame is taken
+
+[fluence]
+damage_j_cm2 = 3.0         # coating specification from the optic supplier
+safety_factor = 0.75
+nf_mm_per_px_at_optic = 0.5
+
+[energy]
+target_j = 10.0
+pump_max = 1.1
+gain_start_j_per_pump = 12.5
+gain_ewma = 0.3
+cross_cal_every_days = 3
+cross_cal_shots = 10        # paired readings, one shot per cadence slot
+max_uncertainty_k2 = 0.015
+drift_correction = true     # extrapolate the meter's sensitivity drift from the last two cross-calibrations
+diode_band_c = [22.5, 27.5]
+max_cal_age_days = 7       # beyond this the reported energy is flagged as not traceable
+
+[schedule]
+shot_cadence_s = 180
+preshot_lead_s = 30.0       # the pre-shot pulse and any realignment start this long before the slot
+
+[operator]
+two_person_energy_j = 8.0  # full shots above this energy carry an operator's confirmation
+
+[manual]
+# The status quo: an operator aligns by eye on the camera screens with the commissioning matrix.
+align_minutes = 15.0
+realign_factor = 2.0
+iterations = 8
+
+[data]
+root = "data"
+frames = true              # the evaluation turns frames off to keep runs small
+compression = "gzip"
+compression_level = 4
+
+[webhooks]
+max_attempts = 5
+backoff_s = [0.5, 2.0, 8.0, 30.0]
+timeout_s = 3.0

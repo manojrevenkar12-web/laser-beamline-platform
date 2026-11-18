@@ -1,0 +1,116 @@
+# The designs compared on the same beamline luck. Each is the platform with some capabilities off.
+# Keys: analysis ("iso" | "naive"), background, hot_pixel_mask, iso_aperture, auto_exposure,
+# alignment ("auto" | "manual"), matrix ("measured" | "nominal"), backlash_compensation, matrix_refresh,
+# realign ("condition" | "schedule" | "operator"), preshot_pulse, fluence_interlock, energy_cross_cal,
+# routine_inspection (a visual check of the optics at the start of every shift).
+
+[manual_ops]
+description = "Status quo: operators align by eye with the commissioning matrix, fixed exposure, vendor energy factor, energy limit only, optics checked every morning"
+analysis = "naive"
+background = false
+hot_pixel_mask = false
+iso_aperture = false
+auto_exposure = false
+alignment = "manual"
+matrix = "nominal"
+backlash_compensation = false
+matrix_refresh = false
+realign = "operator"
+preshot_pulse = false
+fluence_interlock = false
+energy_cross_cal = false
+routine_inspection = true
+
+[manual_iso]
+description = "Operators align by hand, but on ISO 11146 diagnostics (dark frame, hot-pixel map, integration area)"
+base = "manual_ops"
+analysis = "iso"
+background = true
+hot_pixel_mask = true
+iso_aperture = true
+auto_exposure = true
+
+[auto_naive]
+description = "Scripted automation: measured matrix and scheduled realignment, but raw-frame centroids and no backlash handling"
+analysis = "naive"
+background = false
+hot_pixel_mask = false
+iso_aperture = false
+auto_exposure = false
+alignment = "auto"
+matrix = "measured"
+backlash_compensation = false
+matrix_refresh = false
+realign = "schedule"
+preshot_pulse = false
+fluence_interlock = true
+energy_cross_cal = false
+routine_inspection = true
+
+[platform]
+description = "The platform: ISO 11146 diagnostics, backlash-aware alignment on condition, pre-shot pulse, fluence interlock, energy cross-calibration"
+analysis = "iso"
+background = true
+hot_pixel_mask = true
+iso_aperture = true
+auto_exposure = true
+alignment = "auto"
+matrix = "measured"
+backlash_compensation = true
+matrix_refresh = true
+realign = "condition"
+preshot_pulse = true
+fluence_interlock = true
+energy_cross_cal = true
+routine_inspection = false   # the fluence check asks for an inspection when one is needed
+
+# Ablations: the platform with one capability off.
+[no_background]
+base = "platform"
+background = false
+description = "No dark frame or baseline subtraction"
+
+[no_hot_pixel_mask]
+base = "platform"
+hot_pixel_mask = false
+description = "Hot pixels left in the frame"
+
+[no_iso_aperture]
+base = "platform"
+iso_aperture = false
+description = "Moments over the whole frame instead of the ISO integration area"
+
+[no_auto_exposure]
+base = "platform"
+auto_exposure = false
+description = "Fixed camera exposure"
+
+[no_backlash]
+base = "platform"
+backlash_compensation = false
+description = "Actuator moves without backlash compensation"
+
+[no_matrix_refresh]
+base = "platform"
+matrix_refresh = false
+description = "The interaction matrix is measured once and never refreshed"
+
+[scheduled_realign]
+base = "platform"
+realign = "schedule"
+description = "Realign every 30 shots instead of on the pre-shot measurement"
+
+[no_preshot_pulse]
+base = "platform"
+preshot_pulse = false
+description = "Decide from the previous shot instead of a pre-shot low-energy pulse"
+
+[no_fluence_interlock]
+base = "platform"
+fluence_interlock = false
+description = "Energy limit only, no fluence prediction"
+
+[no_cross_cal]
+base = "platform"
+energy_cross_cal = false
+description = "The energy meter keeps its vendor factor"

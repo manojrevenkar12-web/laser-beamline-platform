@@ -1,0 +1,25 @@
+{
+ "clean_drafts": 8,
+ "clean_passed": 8,
+ "planted": 200,
+ "planted_caught": 186,
+ "by_kind": {
+  "count": {
+   "n": 52,
+   "caught": 39
+  },
+  "decimal": {
+   "n": 51,
+   "caught": 51
+  },
+  "other_day": {
+   "n": 51,
+   "caught": 50
+  },
+  "shot_id": {
+   "n": 46,
+   "caught": 46
+  }
+ },
+ "note": "drafts written by the template; with ANTHROPIC_API_KEY set, lbp.elog.handover.draft asks a model instead"
+}

@@ -1,0 +1,9 @@
+# Release gates for the platform design, applied to the dev campaign and to the held-out campaign.
+
+[gates]
+damage_events = { max = 0 }
+in_spec_share = { min = 0.95 }        # fired experiment shots within pointing, centring and energy spec
+ff_error_p95_urad = { max = 5.0 }
+energy_report_error_p95 = { max = 0.015 }
+false_block_share = { max = 0.02 }    # requested shots blocked while the beamline was truly safe
+good_shots_per_day_vs_manual = { min = 1.5 }

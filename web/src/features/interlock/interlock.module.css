@@ -1,0 +1,122 @@
+.now {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+}
+
+.badgePermit,
+.badgeHold {
+  font-weight: 700;
+  font-size: var(--size-s);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-s);
+}
+
+.badgePermit {
+  background: var(--permit-soft);
+  color: var(--permit);
+}
+
+.badgeHold {
+  background: var(--hold);
+  color: var(--ink);
+}
+
+.meta,
+.time {
+  color: var(--muted);
+  font-size: var(--size-s);
+}
+
+.gauge {
+  margin-bottom: var(--space-5);
+}
+
+.track {
+  position: relative;
+  height: 14px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-s);
+}
+
+.fill {
+  height: 100%;
+  background: var(--beam);
+  border-radius: var(--radius-s) 0 0 var(--radius-s);
+}
+
+.limit {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  width: 2px;
+  background: var(--ink);
+}
+
+.above {
+  position: relative;
+  height: 1.6em;
+  font-size: var(--size-xs);
+  color: var(--muted);
+}
+
+.scale {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--size-xs);
+  color: var(--muted);
+  margin-top: var(--space-1);
+}
+
+.scaleMark {
+  position: absolute;
+  transform: translateX(-50%);
+  color: var(--ink);
+}
+
+.subhead {
+  font-size: var(--size-s);
+  font-weight: 700;
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+  text-align: left;
+  background: var(--hold-soft);
+  border: 1px solid transparent;
+  border-radius: var(--radius-s);
+  padding: var(--space-2) var(--space-3);
+  cursor: pointer;
+}
+
+.item:hover {
+  border-color: var(--hold);
+}
+
+.reason {
+  font-size: var(--size-s);
+}
+
+.detail {
+  overflow: hidden;
+  font-size: var(--size-s);
+  color: var(--muted);
+  padding: var(--space-2) var(--space-3) 0;
+}

@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.table {
+  font-size: var(--size-s);
+}
+
+.table th,
+.table td {
+  text-align: right;
+  padding: var(--space-1) var(--space-2);
+  border-bottom: 1px solid var(--rule);
+}
+
+.table th[scope="row"],
+.table td:first-child,
+.table thead th:first-child {
+  text-align: left;
+}
+
+.table thead th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: var(--size-xs);
+}
+
+.mech td,
+.mech th {
+  background: var(--calib-soft);
+}
+
+.footnote {
+  color: var(--muted);
+  font-size: var(--size-xs);
+  margin-top: var(--space-2);
+}

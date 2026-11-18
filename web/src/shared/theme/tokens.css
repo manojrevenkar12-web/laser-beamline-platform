@@ -1,0 +1,45 @@
+/* Theme tokens. Colours carry meaning: the beam is drawn in the infrared red of the 1053 nm line, a held
+   shot in laser-warning yellow, a permitted shot in green, calibration in blue. */
+:root {
+  --paper: #eef1f4;
+  --panel: #ffffff;
+  --ink: #141b2d;
+  --muted: #5f6b7d;
+  --rule: #d5dae2;
+  --rule-strong: #b9c0cc;
+  --beam: #b3261e;
+  --beam-soft: #f3d9d6;
+  --permit: #1d7a55;
+  --permit-soft: #dcefe6;
+  --hold: #e8b400;
+  --hold-soft: #fbf1c7;
+  --calib: #1f5f8b;
+  --calib-soft: #dce9f2;
+
+  --font: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --size-xs: 0.8125rem;
+  --size-s: 0.9375rem;
+  --size-m: 1.0625rem;
+  --size-l: 1.375rem;
+  --size-xl: 2rem;
+  --leading: 1.45;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-s: 3px;
+  --radius-m: 6px;
+  --measure: 72ch;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ease: linear;
+  }
+}

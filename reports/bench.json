@@ -1,0 +1,29 @@
+{
+ "engine": "beamcore (C++)",
+ "frames": [
+  {
+   "pixels": "128 x 128",
+   "numpy_ms": 0.523,
+   "cpp_ms": 0.153,
+   "speedup": 3.4
+  },
+  {
+   "pixels": "512 x 512",
+   "numpy_ms": 7.292,
+   "cpp_ms": 3.013,
+   "speedup": 2.4
+  },
+  {
+   "pixels": "1024 x 1024",
+   "numpy_ms": 30.71,
+   "cpp_ms": 14.212,
+   "speedup": 2.2
+  },
+  {
+   "pixels": "2048 x 2048",
+   "numpy_ms": 136.625,
+   "cpp_ms": 52.107,
+   "speedup": 2.6
+  }
+ ]
+}

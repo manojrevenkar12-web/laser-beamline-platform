@@ -1,0 +1,71 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+env:
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Python packages
+        run: pip install -r requirements.txt
+      - name: Build beamcore (C++20, warnings are errors)
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4
+      - name: C++ unit tests
+        run: ./build/beamcore_tests
+      - name: Lint
+        run: python3 -m ruff check lbp world evals tests scripts && python3 -m ruff format --check lbp world evals tests scripts
+      - name: Python tests (drivers, diagnostics parity, calibration, interlocks, data, DDS, API, invariants)
+        run: python3 -m pytest -q
+      - name: README results are generated from reports/
+        run: python3 -m evals.readme --check
+
+  sanitizers:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: beamcore under AddressSanitizer and UndefinedBehaviorSanitizer (clang)
+        run: |
+          cmake -S . -B build-asan -DBEAMCORE_PYTHON=OFF -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=Debug \
+            -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fno-omit-frame-pointer -fno-sanitize-recover=all"
+          cmake --build build-asan -j 4
+          ./build-asan/beamcore_tests
+
+  evaluation-smoke:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4
+      - name: Every design for two shifts on every dev beamline
+        run: python3 -m evals.run --days 2
+
+  console:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e
