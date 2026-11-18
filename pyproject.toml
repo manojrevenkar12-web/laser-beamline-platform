@@ -19,3 +19,6 @@ ignore = ["E501", "SIM108", "B905"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["lbp", "world", "evals"]

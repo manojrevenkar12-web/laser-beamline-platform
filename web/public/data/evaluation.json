@@ -1,0 +1,1995 @@
+{
+ "dev": {
+  "days": 12,
+  "seeds": [
+   11,
+   12,
+   13
+  ],
+  "commit": "unknown",
+  "gates": [
+   {
+    "gate": "damage_events",
+    "value": 0.0,
+    "rule": {
+     "max": 0
+    },
+    "pass": true
+   },
+   {
+    "gate": "in_spec_share",
+    "value": 0.98184,
+    "rule": {
+     "min": 0.95
+    },
+    "pass": true
+   },
+   {
+    "gate": "ff_error_p95_urad",
+    "value": 3.51464,
+    "rule": {
+     "max": 5.0
+    },
+    "pass": true
+   },
+   {
+    "gate": "energy_report_error_p95",
+    "value": 0.01375,
+    "rule": {
+     "max": 0.015
+    },
+    "pass": true
+   },
+   {
+    "gate": "false_block_share",
+    "value": 0.0,
+    "rule": {
+     "max": 0.02
+    },
+    "pass": true
+   },
+   {
+    "gate": "good_shots_per_day_vs_manual",
+    "value": 4.11477,
+    "rule": {
+     "min": 1.5
+    },
+    "pass": true
+   }
+  ],
+  "designs": {
+   "manual_ops": {
+    "description": "Status quo: operators align by eye with the commissioning matrix, fixed exposure, vendor energy factor, energy limit only, optics checked every morning",
+    "summary": {
+     "shots_per_day": {
+      "mean": 131.66667,
+      "sd": 0.93912,
+      "min": 130.58333,
+      "max": 132.25,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 36.30556,
+      "sd": 1.53734,
+      "min": 35.0,
+      "max": 38.0,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.2758,
+      "sd": 0.01359,
+      "min": 0.26482,
+      "max": 0.291,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 4.45274,
+      "sd": 0.2922,
+      "min": 4.2236,
+      "max": 4.78179,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 8.80789,
+      "sd": 0.19163,
+      "min": 8.6054,
+      "max": 8.9864,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 1.13203,
+      "sd": 0.11765,
+      "min": 1.00196,
+      "max": 1.23101,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.04961,
+      "sd": 0.00028,
+      "min": 0.04937,
+      "max": 0.04991,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.04114,
+      "sd": 7e-05,
+      "min": 0.04106,
+      "max": 0.04119,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 190.33333,
+      "sd": 28.18392,
+      "min": 168.0,
+      "max": 222.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 7.75719,
+      "sd": 0.03767,
+      "min": 7.71792,
+      "max": 7.79302,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 12.0,
+      "sd": 0.0,
+      "min": 12.0,
+      "max": 12.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 35.41667,
+      "sd": 2.88675,
+      "min": 33.75,
+      "max": 38.75,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 2.36111,
+      "sd": 0.19245,
+      "min": 2.25,
+      "max": 2.58333,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     }
+    }
+   },
+   "manual_iso": {
+    "description": "Operators align by hand, but on ISO 11146 diagnostics (dark frame, hot-pixel map, integration area)",
+    "summary": {
+     "shots_per_day": {
+      "mean": 131.88889,
+      "sd": 0.63647,
+      "min": 131.33333,
+      "max": 132.58333,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 37.11111,
+      "sd": 4.86936,
+      "min": 33.58333,
+      "max": 42.66667,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.28146,
+      "sd": 0.03791,
+      "min": 0.2549,
+      "max": 0.32487,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 4.48362,
+      "sd": 0.44852,
+      "min": 4.01582,
+      "max": 4.90997,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 8.69307,
+      "sd": 0.34861,
+      "min": 8.38274,
+      "max": 9.07028,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 1.28268,
+      "sd": 0.09403,
+      "min": 1.21032,
+      "max": 1.38897,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.04937,
+      "sd": 0.00106,
+      "min": 0.04814,
+      "max": 0.04999,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.04139,
+      "sd": 0.00034,
+      "min": 0.04102,
+      "max": 0.04169,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 191.66667,
+      "sd": 31.39002,
+      "min": 167.0,
+      "max": 227.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 7.81833,
+      "sd": 0.02738,
+      "min": 7.79466,
+      "max": 7.84831,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 12.0,
+      "sd": 0.0,
+      "min": 12.0,
+      "max": 12.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 34.58333,
+      "sd": 1.90941,
+      "min": 32.5,
+      "max": 36.25,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 2.30556,
+      "sd": 0.12729,
+      "min": 2.16667,
+      "max": 2.41667,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     }
+    }
+   },
+   "auto_naive": {
+    "description": "Scripted automation: measured matrix and scheduled realignment, but raw-frame centroids and no backlash handling",
+    "summary": {
+     "shots_per_day": {
+      "mean": 137.94444,
+      "sd": 3.75123,
+      "min": 134.25,
+      "max": 141.75,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 75.69444,
+      "sd": 7.54263,
+      "min": 70.41667,
+      "max": 84.33333,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.54808,
+      "sd": 0.04058,
+      "min": 0.52452,
+      "max": 0.59494,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 2.57253,
+      "sd": 0.2976,
+      "min": 2.28562,
+      "max": 2.87978,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 11.17401,
+      "sd": 5.49328,
+      "min": 6.54527,
+      "max": 17.24434,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.66473,
+      "sd": 0.04344,
+      "min": 0.62097,
+      "max": 0.70784,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.05002,
+      "sd": 0.00034,
+      "min": 0.04963,
+      "max": 0.05028,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.04152,
+      "sd": 0.00029,
+      "min": 0.04128,
+      "max": 0.04184,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 3.21132,
+      "sd": 0.00855,
+      "min": 3.20298,
+      "max": 3.22008,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 44.33333,
+      "sd": 47.68997,
+      "min": 2.0,
+      "max": 96.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 14.0,
+      "sd": 0.0,
+      "min": 14.0,
+      "max": 14.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 4.92706,
+      "sd": 0.27907,
+      "min": 4.75914,
+      "max": 5.2492,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 5.38889,
+      "sd": 0.12729,
+      "min": 5.25,
+      "max": 5.5,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 0.18639,
+      "sd": 0.06462,
+      "min": 0.11178,
+      "max": 0.22383,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     }
+    }
+   },
+   "platform": {
+    "description": "The platform: ISO 11146 diagnostics, backlash-aware alignment on condition, pre-shot pulse, fluence interlock, energy cross-calibration",
+    "summary": {
+     "shots_per_day": {
+      "mean": 151.97222,
+      "sd": 0.50918,
+      "min": 151.41667,
+      "max": 152.41667,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 149.38889,
+      "sd": 0.67358,
+      "min": 148.66667,
+      "max": 150.0,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.983,
+      "sd": 0.00115,
+      "min": 0.98184,
+      "max": 0.98414,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.66991,
+      "sd": 0.04234,
+      "min": 1.62103,
+      "max": 1.69503,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.45165,
+      "sd": 0.06366,
+      "min": 3.38734,
+      "max": 3.51464,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.39731,
+      "sd": 0.00865,
+      "min": 0.38763,
+      "max": 0.40427,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02421,
+      "sd": 0.00087,
+      "min": 0.02353,
+      "max": 0.02519,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01249,
+      "sd": 0.00167,
+      "min": 0.0106,
+      "max": 0.01375,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.78924,
+      "sd": 0.00774,
+      "min": 1.78032,
+      "max": 1.79419,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 3.33333,
+      "sd": 0.57735,
+      "min": 3.0,
+      "max": 4.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 12.23591,
+      "sd": 1.53464,
+      "min": 10.80705,
+      "max": 13.85803,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 15.5,
+      "sd": 0.44096,
+      "min": 15.16667,
+      "max": 16.0,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.45011,
+      "sd": 0.00263,
+      "min": 9.44707,
+      "max": 9.45171,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 9.0,
+      "sd": 2.64575,
+      "min": 6.0,
+      "max": 11.0,
+      "n": 3
+     }
+    }
+   },
+   "no_background": {
+    "description": "No dark frame or baseline subtraction",
+    "summary": {
+     "shots_per_day": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null,
+      "n": 0
+     },
+     "ff_error_p95_urad": {
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null,
+      "n": 0
+     },
+     "nf_error_p95_mm": {
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null,
+      "n": 0
+     },
+     "energy_delivered_error_p95": {
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null,
+      "n": 0
+     },
+     "energy_report_error_p95": {
+      "mean": null,
+      "sd": null,
+      "min": null,
+      "max": null,
+      "n": 0
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.76219,
+      "sd": 0.00196,
+      "min": 1.76078,
+      "max": 1.76443,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 1872.0,
+      "sd": 0.0,
+      "min": 1872.0,
+      "max": 1872.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 3.58818,
+      "sd": 0.02374,
+      "min": 3.56386,
+      "max": 3.61129,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 3.0,
+      "sd": 0.0,
+      "min": 3.0,
+      "max": 3.0,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 11.80037,
+      "sd": 0.0007,
+      "min": 11.79958,
+      "max": 11.80087,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     }
+    }
+   },
+   "no_hot_pixel_mask": {
+    "description": "Hot pixels left in the frame",
+    "summary": {
+     "shots_per_day": {
+      "mean": 150.58333,
+      "sd": 3.18525,
+      "min": 146.91667,
+      "max": 152.66667,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 148.19444,
+      "sd": 3.76417,
+      "min": 143.91667,
+      "max": 151.0,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.98408,
+      "sd": 0.00477,
+      "min": 0.97958,
+      "max": 0.98908,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.66486,
+      "sd": 0.02581,
+      "min": 1.63921,
+      "max": 1.69083,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.46937,
+      "sd": 0.07404,
+      "min": 3.40579,
+      "max": 3.55066,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.40366,
+      "sd": 0.00618,
+      "min": 0.39985,
+      "max": 0.41078,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02354,
+      "sd": 0.00112,
+      "min": 0.02243,
+      "max": 0.02467,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01149,
+      "sd": 0.0018,
+      "min": 0.0102,
+      "max": 0.01354,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.33333,
+      "sd": 0.57735,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 2.2164,
+      "sd": 0.75763,
+      "min": 1.77403,
+      "max": 3.09121,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 2.66667,
+      "sd": 0.57735,
+      "min": 2.0,
+      "max": 3.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 11.29017,
+      "sd": 0.45468,
+      "min": 10.87523,
+      "max": 11.77621,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 14.69444,
+      "sd": 0.69389,
+      "min": 13.91667,
+      "max": 15.25,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.4529,
+      "sd": 0.00118,
+      "min": 9.45155,
+      "max": 9.45374,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 8.33333,
+      "sd": 1.52753,
+      "min": 7.0,
+      "max": 10.0,
+      "n": 3
+     }
+    }
+   },
+   "no_iso_aperture": {
+    "description": "Moments over the whole frame instead of the ISO integration area",
+    "summary": {
+     "shots_per_day": {
+      "mean": 150.25,
+      "sd": 2.70929,
+      "min": 147.16667,
+      "max": 152.25,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 147.63889,
+      "sd": 2.50324,
+      "min": 144.75,
+      "max": 149.16667,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.98264,
+      "sd": 0.00255,
+      "min": 0.97975,
+      "max": 0.98458,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.73192,
+      "sd": 0.08811,
+      "min": 1.67749,
+      "max": 1.83358,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.60407,
+      "sd": 0.09704,
+      "min": 3.54406,
+      "max": 3.71603,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.39654,
+      "sd": 0.01494,
+      "min": 0.38141,
+      "max": 0.41127,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.0237,
+      "sd": 0.00051,
+      "min": 0.02312,
+      "max": 0.02401,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01242,
+      "sd": 0.00193,
+      "min": 0.01032,
+      "max": 0.01412,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.33333,
+      "sd": 0.57735,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 2.22841,
+      "sd": 0.76332,
+      "min": 1.78598,
+      "max": 3.10981,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 3.0,
+      "sd": 1.0,
+      "min": 2.0,
+      "max": 4.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 14.22635,
+      "sd": 0.29525,
+      "min": 13.94432,
+      "max": 14.53325,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 18.47222,
+      "sd": 2.51983,
+      "min": 16.33333,
+      "max": 21.25,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.45009,
+      "sd": 0.00237,
+      "min": 9.44736,
+      "max": 9.45157,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 8.66667,
+      "sd": 2.3094,
+      "min": 6.0,
+      "max": 10.0,
+      "n": 3
+     }
+    }
+   },
+   "no_auto_exposure": {
+    "description": "Fixed camera exposure",
+    "summary": {
+     "shots_per_day": {
+      "mean": 152.36111,
+      "sd": 0.5422,
+      "min": 151.83333,
+      "max": 152.91667,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 149.88889,
+      "sd": 0.6684,
+      "min": 149.25,
+      "max": 150.58333,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.98377,
+      "sd": 0.00089,
+      "min": 0.98299,
+      "max": 0.98474,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.67749,
+      "sd": 0.01335,
+      "min": 1.66373,
+      "max": 1.69038,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.49631,
+      "sd": 0.06827,
+      "min": 3.42525,
+      "max": 3.56141,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.39248,
+      "sd": 0.01071,
+      "min": 0.38235,
+      "max": 0.40368,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02375,
+      "sd": 0.00047,
+      "min": 0.02321,
+      "max": 0.02408,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01246,
+      "sd": 0.00151,
+      "min": 0.01078,
+      "max": 0.01371,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.78915,
+      "sd": 0.0079,
+      "min": 1.78004,
+      "max": 1.79419,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 2.33333,
+      "sd": 0.57735,
+      "min": 2.0,
+      "max": 3.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 11.13905,
+      "sd": 1.27971,
+      "min": 9.84705,
+      "max": 12.4061,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 15.19444,
+      "sd": 0.59122,
+      "min": 14.66667,
+      "max": 15.83333,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.45011,
+      "sd": 0.00263,
+      "min": 9.44707,
+      "max": 9.45171,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 7.66667,
+      "sd": 2.51661,
+      "min": 5.0,
+      "max": 10.0,
+      "n": 3
+     }
+    }
+   },
+   "no_backlash": {
+    "description": "Actuator moves without backlash compensation",
+    "summary": {
+     "shots_per_day": {
+      "mean": 106.38889,
+      "sd": 59.4678,
+      "min": 38.66667,
+      "max": 150.08333,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 104.36111,
+      "sd": 58.67533,
+      "min": 37.58333,
+      "max": 147.66667,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.97869,
+      "sd": 0.0061,
+      "min": 0.97198,
+      "max": 0.9839,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.70602,
+      "sd": 0.03931,
+      "min": 1.66711,
+      "max": 1.74571,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.53787,
+      "sd": 0.07749,
+      "min": 3.46644,
+      "max": 3.62026,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.38673,
+      "sd": 0.02757,
+      "min": 0.35635,
+      "max": 0.41014,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02407,
+      "sd": 0.00155,
+      "min": 0.02257,
+      "max": 0.02566,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01342,
+      "sd": 0.00303,
+      "min": 0.01015,
+      "max": 0.01613,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.78551,
+      "sd": 0.00626,
+      "min": 1.77827,
+      "max": 1.78924,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 1.33333,
+      "sd": 1.1547,
+      "min": 0.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 560.33333,
+      "sd": 748.60492,
+      "min": 11.0,
+      "max": 1413.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 1.33333,
+      "sd": 1.1547,
+      "min": 0.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 12.4392,
+      "sd": 6.09557,
+      "min": 5.54748,
+      "max": 17.12365,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 12.75,
+      "sd": 5.84938,
+      "min": 6.0,
+      "max": 16.33333,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.58859,
+      "sd": 0.48739,
+      "min": 9.25317,
+      "max": 10.14767,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 16.66667,
+      "sd": 12.50333,
+      "min": 4.0,
+      "max": 29.0,
+      "n": 3
+     }
+    }
+   },
+   "no_matrix_refresh": {
+    "description": "The interaction matrix is measured once and never refreshed",
+    "summary": {
+     "shots_per_day": {
+      "mean": 153.08333,
+      "sd": 0.28868,
+      "min": 152.91667,
+      "max": 153.41667,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 150.91667,
+      "sd": 0.30046,
+      "min": 150.66667,
+      "max": 151.25,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.98585,
+      "sd": 0.00301,
+      "min": 0.98316,
+      "max": 0.9891,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.6739,
+      "sd": 0.00805,
+      "min": 1.66769,
+      "max": 1.683,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.46028,
+      "sd": 0.12991,
+      "min": 3.32189,
+      "max": 3.5796,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.40028,
+      "sd": 0.00326,
+      "min": 0.397,
+      "max": 0.40353,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02337,
+      "sd": 0.00096,
+      "min": 0.02248,
+      "max": 0.02439,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01217,
+      "sd": 0.00173,
+      "min": 0.01026,
+      "max": 0.01361,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.78398,
+      "sd": 0.0097,
+      "min": 1.77488,
+      "max": 1.79419,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 3.0,
+      "sd": 1.0,
+      "min": 2.0,
+      "max": 4.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 8.89484,
+      "sd": 0.88114,
+      "min": 7.87759,
+      "max": 9.4212,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 15.5,
+      "sd": 0.08333,
+      "min": 15.41667,
+      "max": 15.58333,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.45011,
+      "sd": 0.00263,
+      "min": 9.44707,
+      "max": 9.45171,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     }
+    }
+   },
+   "scheduled_realign": {
+    "description": "Realign every 30 shots instead of on the pre-shot measurement",
+    "summary": {
+     "shots_per_day": {
+      "mean": 50.61111,
+      "sd": 19.11757,
+      "min": 32.83333,
+      "max": 70.83333,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 42.75,
+      "sd": 16.78355,
+      "min": 28.5,
+      "max": 61.25,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.84401,
+      "sd": 0.03875,
+      "min": 0.79931,
+      "max": 0.86802,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 2.49648,
+      "sd": 0.05952,
+      "min": 2.43396,
+      "max": 2.55245,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 6.16702,
+      "sd": 0.31512,
+      "min": 5.89356,
+      "max": 6.51163,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.67382,
+      "sd": 0.0563,
+      "min": 0.62173,
+      "max": 0.73355,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02351,
+      "sd": 0.00082,
+      "min": 0.02258,
+      "max": 0.02414,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01061,
+      "sd": 0.00089,
+      "min": 0.0099,
+      "max": 0.01161,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.78522,
+      "sd": 0.00708,
+      "min": 1.77781,
+      "max": 1.79192,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 1239.66667,
+      "sd": 237.01758,
+      "min": 991.0,
+      "max": 1463.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 4.17852,
+      "sd": 1.87993,
+      "min": 2.00782,
+      "max": 5.27702,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 2.11111,
+      "sd": 0.59122,
+      "min": 1.58333,
+      "max": 2.75,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.45011,
+      "sd": 0.00263,
+      "min": 9.44707,
+      "max": 9.45171,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 7.66667,
+      "sd": 4.16333,
+      "min": 3.0,
+      "max": 11.0,
+      "n": 3
+     }
+    }
+   },
+   "no_preshot_pulse": {
+    "description": "Decide from the previous shot instead of a pre-shot low-energy pulse",
+    "summary": {
+     "shots_per_day": {
+      "mean": 143.08333,
+      "sd": 1.08333,
+      "min": 142.0,
+      "max": 144.16667,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 25.0,
+      "sd": 10.09435,
+      "min": 16.33333,
+      "max": 36.08333,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.17484,
+      "sd": 0.07078,
+      "min": 0.11329,
+      "max": 0.25218,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 7.79143,
+      "sd": 1.20854,
+      "min": 6.92221,
+      "max": 9.1715,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 14.03127,
+      "sd": 0.48296,
+      "min": 13.72794,
+      "max": 14.58821,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 1.75238,
+      "sd": 0.2042,
+      "min": 1.63122,
+      "max": 1.98814,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02421,
+      "sd": 0.00095,
+      "min": 0.02312,
+      "max": 0.0248,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01224,
+      "sd": 0.00167,
+      "min": 0.0104,
+      "max": 0.01367,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 4.0,
+      "sd": 0.0,
+      "min": 4.0,
+      "max": 4.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 3.87371,
+      "sd": 0.03261,
+      "min": 3.83615,
+      "max": 3.8948,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 4.22615,
+      "sd": 1.35112,
+      "min": 2.66993,
+      "max": 5.09989,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.4502,
+      "sd": 0.00272,
+      "min": 9.44707,
+      "max": 9.45199,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 7.66667,
+      "sd": 2.51661,
+      "min": 5.0,
+      "max": 10.0,
+      "n": 3
+     }
+    }
+   },
+   "no_fluence_interlock": {
+    "description": "Energy limit only, no fluence prediction",
+    "summary": {
+     "shots_per_day": {
+      "mean": 154.91667,
+      "sd": 0.46398,
+      "min": 154.41667,
+      "max": 155.33333,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 40.47222,
+      "sd": 1.2537,
+      "min": 39.16667,
+      "max": 41.66667,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.26124,
+      "sd": 0.00759,
+      "min": 0.25364,
+      "max": 0.26882,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.63932,
+      "sd": 0.02804,
+      "min": 1.60757,
+      "max": 1.66068,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.45564,
+      "sd": 0.02,
+      "min": 3.438,
+      "max": 3.47736,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.63651,
+      "sd": 0.02977,
+      "min": 0.60478,
+      "max": 0.66384,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.02408,
+      "sd": 0.00068,
+      "min": 0.02337,
+      "max": 0.02472,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.01229,
+      "sd": 0.00172,
+      "min": 0.01038,
+      "max": 0.01373,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 1379.0,
+      "sd": 8.66025,
+      "min": 1369.0,
+      "max": 1384.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 7.57978,
+      "sd": 0.07598,
+      "min": 7.5359,
+      "max": 7.66751,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 0.33333,
+      "sd": 0.57735,
+      "min": 0.0,
+      "max": 1.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 11.31295,
+      "sd": 1.37178,
+      "min": 10.44326,
+      "max": 12.89431,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 14.97222,
+      "sd": 0.5422,
+      "min": 14.41667,
+      "max": 15.5,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 9.4502,
+      "sd": 0.00272,
+      "min": 9.44707,
+      "max": 9.45199,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 8.66667,
+      "sd": 2.51661,
+      "min": 6.0,
+      "max": 11.0,
+      "n": 3
+     }
+    }
+   },
+   "no_cross_cal": {
+    "description": "The energy meter keeps its vendor factor",
+    "summary": {
+     "shots_per_day": {
+      "mean": 155.16667,
+      "sd": 0.93912,
+      "min": 154.58333,
+      "max": 156.25,
+      "n": 3
+     },
+     "good_shots_per_day": {
+      "mean": 105.11111,
+      "sd": 1.57527,
+      "min": 103.33333,
+      "max": 106.33333,
+      "n": 3
+     },
+     "in_spec_share": {
+      "mean": 0.6774,
+      "sd": 0.00819,
+      "min": 0.6681,
+      "max": 0.68356,
+      "n": 3
+     },
+     "ff_error_p50_urad": {
+      "mean": 1.71094,
+      "sd": 0.02109,
+      "min": 1.69014,
+      "max": 1.73232,
+      "n": 3
+     },
+     "ff_error_p95_urad": {
+      "mean": 3.49153,
+      "sd": 0.04408,
+      "min": 3.44371,
+      "max": 3.53055,
+      "n": 3
+     },
+     "nf_error_p95_mm": {
+      "mean": 0.39896,
+      "sd": 0.0135,
+      "min": 0.38942,
+      "max": 0.41441,
+      "n": 3
+     },
+     "energy_delivered_error_p95": {
+      "mean": 0.04984,
+      "sd": 0.00036,
+      "min": 0.04945,
+      "max": 0.05018,
+      "n": 3
+     },
+     "energy_report_error_p95": {
+      "mean": 0.0412,
+      "sd": 0.0004,
+      "min": 0.04088,
+      "max": 0.04165,
+      "n": 3
+     },
+     "damage_events": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "max_fluence_j_cm2": {
+      "mean": 1.84724,
+      "sd": 0.0076,
+      "min": 1.83899,
+      "max": 1.85396,
+      "n": 3
+     },
+     "fluence_blocks": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "false_fluence_blocks": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "false_block_share": {
+      "mean": 0.0,
+      "sd": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 3
+     },
+     "blocked": {
+      "mean": 2.66667,
+      "sd": 1.1547,
+      "min": 2.0,
+      "max": 4.0,
+      "n": 3
+     },
+     "inspections": {
+      "mean": 2.0,
+      "sd": 0.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 3
+     },
+     "align_minutes_per_day": {
+      "mean": 12.30439,
+      "sd": 2.95351,
+      "min": 8.89402,
+      "max": 14.02669,
+      "n": 3
+     },
+     "alignments_per_day": {
+      "mean": 16.22222,
+      "sd": 0.69887,
+      "min": 15.41667,
+      "max": 16.66667,
+      "n": 3
+     },
+     "calibration_minutes_per_day": {
+      "mean": 0.31033,
+      "sd": 0.00012,
+      "min": 0.31022,
+      "max": 0.31046,
+      "n": 3
+     },
+     "matrix_refreshes": {
+      "mean": 9.0,
+      "sd": 4.3589,
+      "min": 4.0,
+      "max": 12.0,
+      "n": 3
+     }
+    }
+   }
+  }
+ }
+}
