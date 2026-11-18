@@ -1,0 +1,6358 @@
+{
+ "world": "heldout",
+ "seeds": [
+  913
+ ],
+ "days": 14,
+ "commit": "2bc06864a0d77e6b9c7717b61d60268b86df5bbe",
+ "designs": {
+  "manual_ops": {
+   "description": "Status quo: operators align by eye with the commissioning matrix, fixed exposure, vendor energy factor, energy limit only, optics checked every morning",
+   "summary": {
+    "shots_per_day": {
+     "mean": 127.85714285714286,
+     "sd": 0.0,
+     "min": 127.85714285714286,
+     "max": 127.85714285714286,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 20.428571428571427,
+     "sd": 0.0,
+     "min": 20.428571428571427,
+     "max": 20.428571428571427,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.15977653631284916,
+     "sd": 0.0,
+     "min": 0.15977653631284916,
+     "max": 0.15977653631284916,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 5.11852298071002,
+     "sd": 0.0,
+     "min": 5.11852298071002,
+     "max": 5.11852298071002,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 9.303112458841303,
+     "sd": 0.0,
+     "min": 9.303112458841303,
+     "max": 9.303112458841303,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 1.1374877305752693,
+     "sd": 0.0,
+     "min": 1.1374877305752693,
+     "max": 1.1374877305752693,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.07749050593149558,
+     "sd": 0.0,
+     "min": 0.07749050593149558,
+     "max": 0.07749050593149558,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.06796970616754394,
+     "sd": 0.0,
+     "min": 0.06796970616754394,
+     "max": 0.06796970616754394,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 172.0,
+     "sd": 0.0,
+     "min": 172.0,
+     "max": 172.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 8.814616638718178,
+     "sd": 0.0,
+     "min": 8.814616638718178,
+     "max": 8.814616638718178,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 14.0,
+     "sd": 0.0,
+     "min": 14.0,
+     "max": 14.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 52.5,
+     "sd": 0.0,
+     "min": 52.5,
+     "max": 52.5,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 3.5,
+     "sd": 0.0,
+     "min": 3.5,
+     "max": 3.5,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "manual_ops",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 127.85714285714286,
+     "good_shots_per_day": 20.428571428571427,
+     "in_spec_share": 0.15977653631284916,
+     "ff_error_p50_urad": 5.11852298071002,
+     "ff_error_p95_urad": 9.303112458841303,
+     "nf_error_p95_mm": 1.1374877305752693,
+     "energy_delivered_error_p95": 0.07749050593149558,
+     "energy_report_error_p95": 0.06796970616754394,
+     "damage_events": 172,
+     "max_fluence_j_cm2": 8.814616638718178,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 0,
+     "inspections": 14,
+     "align_minutes_per_day": 52.5,
+     "alignments_per_day": 3.5,
+     "calibration_minutes_per_day": 0.0,
+     "matrix_refreshes": 0,
+     "alerts": 14,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": 2,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 1,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 1,
+       "t_s": 3057,
+       "kind": "missed-move",
+       "detail": "M2y -74"
+      },
+      {
+       "day": 2,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 2,
+       "t_s": 11680,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 2,
+       "t_s": 11680,
+       "kind": "damage",
+       "detail": "96 damaging shots, first pulse 597 peak 3.48 J/cm2"
+      },
+      {
+       "day": 3,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "damaged optic replaced"
+      },
+      {
+       "day": 3,
+       "t_s": 14407,
+       "kind": "missed-move",
+       "detail": "M2x -174"
+      },
+      {
+       "day": 4,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 5,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 7,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 8,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 9,
+       "t_s": 2040,
+       "kind": "missed-move",
+       "detail": "M2x -48"
+      },
+      {
+       "day": 10,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 10,
+       "t_s": 15270,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15300,
+       "kind": "damage",
+       "detail": "76 damaging shots, first pulse 2316 peak 3.68 J/cm2"
+      },
+      {
+       "day": 11,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "damaged optic replaced"
+      },
+      {
+       "day": 12,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 13,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      }
+     ],
+     "block_reasons": [],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 1,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 3,
+       "kind": "inspection",
+       "severity": "critical",
+       "message": "inspection found a damaged optic; it was replaced"
+      },
+      {
+       "day": 4,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 5,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 6,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 7,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 8,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 9,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 11,
+       "kind": "inspection",
+       "severity": "critical",
+       "message": "inspection found a damaged optic; it was replaced"
+      },
+      {
+       "day": 12,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 13,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 11.2
+    }
+   ]
+  },
+  "manual_iso": {
+   "description": "Operators align by hand, but on ISO 11146 diagnostics (dark frame, hot-pixel map, integration area)",
+   "summary": {
+    "shots_per_day": {
+     "mean": 119.71428571428571,
+     "sd": 0.0,
+     "min": 119.71428571428571,
+     "max": 119.71428571428571,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 20.357142857142858,
+     "sd": 0.0,
+     "min": 20.357142857142858,
+     "max": 20.357142857142858,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.17004773269689738,
+     "sd": 0.0,
+     "min": 0.17004773269689738,
+     "max": 0.17004773269689738,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 5.286975343382764,
+     "sd": 0.0,
+     "min": 5.286975343382764,
+     "max": 5.286975343382764,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 10.256277398292506,
+     "sd": 0.0,
+     "min": 10.256277398292506,
+     "max": 10.256277398292506,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 1.1490908910628685,
+     "sd": 0.0,
+     "min": 1.1490908910628685,
+     "max": 1.1490908910628685,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.0791400743540529,
+     "sd": 0.0,
+     "min": 0.0791400743540529,
+     "max": 0.0791400743540529,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.06818123270513465,
+     "sd": 0.0,
+     "min": 0.06818123270513465,
+     "max": 0.06818123270513465,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 66.0,
+     "sd": 0.0,
+     "min": 66.0,
+     "max": 66.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 8.803194997531083,
+     "sd": 0.0,
+     "min": 8.803194997531083,
+     "max": 8.803194997531083,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 24.0,
+     "sd": 0.0,
+     "min": 24.0,
+     "max": 24.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 14.0,
+     "sd": 0.0,
+     "min": 14.0,
+     "max": 14.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 88.92857142857157,
+     "sd": 0.0,
+     "min": 88.92857142857157,
+     "max": 88.92857142857157,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 5.928571428571429,
+     "sd": 0.0,
+     "min": 5.928571428571429,
+     "max": 5.928571428571429,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "manual_iso",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 119.71428571428571,
+     "good_shots_per_day": 20.357142857142858,
+     "in_spec_share": 0.17004773269689738,
+     "ff_error_p50_urad": 5.286975343382764,
+     "ff_error_p95_urad": 10.256277398292506,
+     "nf_error_p95_mm": 1.1490908910628685,
+     "energy_delivered_error_p95": 0.0791400743540529,
+     "energy_report_error_p95": 0.06818123270513465,
+     "damage_events": 66,
+     "max_fluence_j_cm2": 8.803194997531083,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 24,
+     "inspections": 14,
+     "align_minutes_per_day": 88.92857142857157,
+     "alignments_per_day": 5.928571428571429,
+     "calibration_minutes_per_day": 0.0,
+     "matrix_refreshes": 0,
+     "alerts": 44,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": 10,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 1,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 2,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 2,
+       "t_s": 2041,
+       "kind": "missed-move",
+       "detail": "M2x 92"
+      },
+      {
+       "day": 2,
+       "t_s": 4089,
+       "kind": "missed-move",
+       "detail": "M1x -119"
+      },
+      {
+       "day": 2,
+       "t_s": 12335,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 3,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 4,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 5,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 5,
+       "t_s": 908,
+       "kind": "missed-move",
+       "detail": "M2x 290"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 7,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 8,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 10,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 10,
+       "t_s": 15307,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15337,
+       "kind": "damage",
+       "detail": "66 damaging shots, first pulse 2482 peak 3.68 J/cm2"
+      },
+      {
+       "day": 11,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "damaged optic replaced"
+      },
+      {
+       "day": 12,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 12,
+       "t_s": 949,
+       "kind": "missed-move",
+       "detail": "M1x 248"
+      },
+      {
+       "day": 13,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 13,
+       "t_s": 2022,
+       "kind": "missed-move",
+       "detail": "M1y -9"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 24
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 1,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 4,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 5,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 6,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 7,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 8,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 9,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 11,
+       "kind": "inspection",
+       "severity": "critical",
+       "message": "inspection found a damaged optic; it was replaced"
+      },
+      {
+       "day": 12,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 13,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 10.8
+    }
+   ]
+  },
+  "auto_naive": {
+   "description": "Scripted automation: measured matrix and scheduled realignment, but raw-frame centroids and no backlash handling",
+   "summary": {
+    "shots_per_day": {
+     "mean": 47.642857142857146,
+     "sd": 0.0,
+     "min": 47.642857142857146,
+     "max": 47.642857142857146,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 15.071428571428571,
+     "sd": 0.0,
+     "min": 15.071428571428571,
+     "max": 15.071428571428571,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.31634182908545727,
+     "sd": 0.0,
+     "min": 0.31634182908545727,
+     "max": 0.31634182908545727,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 14.832478029770106,
+     "sd": 0.0,
+     "min": 14.832478029770106,
+     "max": 14.832478029770106,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 2709.067414207,
+     "sd": 0.0,
+     "min": 2709.067414207,
+     "max": 2709.067414207,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.8694528287894484,
+     "sd": 0.0,
+     "min": 0.8694528287894484,
+     "max": 0.8694528287894484,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.06900412461573328,
+     "sd": 0.0,
+     "min": 0.06900412461573328,
+     "max": 0.06900412461573328,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.06325221247538321,
+     "sd": 0.0,
+     "min": 0.06325221247538321,
+     "max": 0.06325221247538321,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.8856641228887323,
+     "sd": 0.0,
+     "min": 1.8856641228887323,
+     "max": 1.8856641228887323,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 1492.0,
+     "sd": 0.0,
+     "min": 1492.0,
+     "max": 1492.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 14.0,
+     "sd": 0.0,
+     "min": 14.0,
+     "max": 14.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 4.048924603175261,
+     "sd": 0.0,
+     "min": 4.048924603175261,
+     "max": 4.048924603175261,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 3.357142857142857,
+     "sd": 0.0,
+     "min": 3.357142857142857,
+     "max": 3.357142857142857,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 1.1509047619048272,
+     "sd": 0.0,
+     "min": 1.1509047619048272,
+     "max": 1.1509047619048272,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "auto_naive",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 47.642857142857146,
+     "good_shots_per_day": 15.071428571428571,
+     "in_spec_share": 0.31634182908545727,
+     "ff_error_p50_urad": 14.832478029770106,
+     "ff_error_p95_urad": 2709.067414207,
+     "nf_error_p95_mm": 0.8694528287894484,
+     "energy_delivered_error_p95": 0.06900412461573328,
+     "energy_report_error_p95": 0.06325221247538321,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.8856641228887323,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 1492,
+     "inspections": 14,
+     "align_minutes_per_day": 4.048924603175261,
+     "alignments_per_day": 3.357142857142857,
+     "calibration_minutes_per_day": 1.1509047619048272,
+     "matrix_refreshes": 0,
+     "alerts": 38,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 1,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 2,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 2,
+       "t_s": 11681,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 3,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 4,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 5,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 7,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 7,
+       "t_s": 920,
+       "kind": "missed-move",
+       "detail": "M2x 300"
+      },
+      {
+       "day": 8,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 10,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 10,
+       "t_s": 6566,
+       "kind": "missed-move",
+       "detail": "M2y -17"
+      },
+      {
+       "day": 10,
+       "t_s": 15240,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 11,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 12,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      },
+      {
+       "day": 13,
+       "t_s": 0,
+       "kind": "inspection",
+       "detail": "nothing found"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 1367
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 125
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 1,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found nothing"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 8.7
+    }
+   ]
+  },
+  "platform": {
+   "description": "The platform: ISO 11146 diagnostics, backlash-aware alignment on condition, pre-shot pulse, fluence interlock, energy cross-calibration",
+   "summary": {
+    "shots_per_day": {
+     "mean": 12.214285714285714,
+     "sd": 0.0,
+     "min": 12.214285714285714,
+     "max": 12.214285714285714,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 11.642857142857142,
+     "sd": 0.0,
+     "min": 11.642857142857142,
+     "max": 11.642857142857142,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9532163742690059,
+     "sd": 0.0,
+     "min": 0.9532163742690059,
+     "max": 0.9532163742690059,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 2.04420685791918,
+     "sd": 0.0,
+     "min": 2.04420685791918,
+     "max": 2.04420685791918,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.071089121060997,
+     "sd": 0.0,
+     "min": 4.071089121060997,
+     "max": 4.071089121060997,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.41384436895337884,
+     "sd": 0.0,
+     "min": 0.41384436895337884,
+     "max": 0.41384436895337884,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.02899753718811726,
+     "sd": 0.0,
+     "min": 0.02899753718811726,
+     "max": 0.02899753718811726,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.0175191204208906,
+     "sd": 0.0,
+     "min": 0.0175191204208906,
+     "max": 0.0175191204208906,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.788549638401201,
+     "sd": 0.0,
+     "min": 1.788549638401201,
+     "max": 1.788549638401201,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2015.0,
+     "sd": 0.0,
+     "min": 2015.0,
+     "max": 2015.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 5.517834920635751,
+     "sd": 0.0,
+     "min": 5.517834920635751,
+     "max": 5.517834920635751,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 4.857142857142857,
+     "sd": 0.0,
+     "min": 4.857142857142857,
+     "max": 4.857142857142857,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 10.368231746031778,
+     "sd": 0.0,
+     "min": 10.368231746031778,
+     "max": 10.368231746031778,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "platform",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 12.214285714285714,
+     "good_shots_per_day": 11.642857142857142,
+     "in_spec_share": 0.9532163742690059,
+     "ff_error_p50_urad": 2.04420685791918,
+     "ff_error_p95_urad": 4.071089121060997,
+     "nf_error_p95_mm": 0.41384436895337884,
+     "energy_delivered_error_p95": 0.02899753718811726,
+     "energy_report_error_p95": 0.0175191204208906,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.788549638401201,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2015,
+     "inspections": 0,
+     "align_minutes_per_day": 5.517834920635751,
+     "alignments_per_day": 4.857142857142857,
+     "calibration_minutes_per_day": 10.368231746031778,
+     "matrix_refreshes": 3,
+     "alerts": 68,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 9108,
+       "kind": "missed-move",
+       "detail": "M1y -52"
+      },
+      {
+       "day": 2,
+       "t_s": 11813,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15295,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 12,
+       "t_s": 249,
+       "kind": "missed-move",
+       "detail": "M1y -116"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 1712
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 139
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 11
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 18.35 of tolerance after alignment"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 11.4,
+     "daily": [
+      {
+       "day": 0,
+       "fired": 10,
+       "blocked": 151,
+       "alignments": 1,
+       "align_minutes": 0.07,
+       "calibration_minutes": 30.1,
+       "inspections": 0
+      },
+      {
+       "day": 1,
+       "fired": 153,
+       "blocked": 0,
+       "alignments": 28,
+       "align_minutes": 28.91,
+       "calibration_minutes": 3.72,
+       "inspections": 0
+      },
+      {
+       "day": 2,
+       "fired": 18,
+       "blocked": 140,
+       "alignments": 6,
+       "align_minutes": 12.33,
+       "calibration_minutes": 0.0,
+       "inspections": 0
+      },
+      {
+       "day": 3,
+       "fired": 10,
+       "blocked": 151,
+       "alignments": 3,
+       "align_minutes": 2.39,
+       "calibration_minutes": 30.08,
+       "inspections": 0
+      },
+      {
+       "day": 4,
+       "fired": 0,
+       "blocked": 160,
+       "alignments": 3,
+       "align_minutes": 2.42,
+       "calibration_minutes": 2.64,
+       "inspections": 0
+      },
+      {
+       "day": 5,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.52,
+       "calibration_minutes": 2.63,
+       "inspections": 0
+      },
+      {
+       "day": 6,
+       "fired": 10,
+       "blocked": 150,
+       "alignments": 3,
+       "align_minutes": 3.63,
+       "calibration_minutes": 30.08,
+       "inspections": 0
+      },
+      {
+       "day": 7,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.68,
+       "calibration_minutes": 2.66,
+       "inspections": 0
+      },
+      {
+       "day": 8,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.32,
+       "calibration_minutes": 2.65,
+       "inspections": 0
+      },
+      {
+       "day": 9,
+       "fired": 10,
+       "blocked": 150,
+       "alignments": 3,
+       "align_minutes": 3.61,
+       "calibration_minutes": 30.06,
+       "inspections": 0
+      },
+      {
+       "day": 10,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.62,
+       "calibration_minutes": 2.65,
+       "inspections": 0
+      },
+      {
+       "day": 11,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.41,
+       "calibration_minutes": 2.64,
+       "inspections": 0
+      },
+      {
+       "day": 12,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.31,
+       "calibration_minutes": 2.61,
+       "inspections": 0
+      },
+      {
+       "day": 13,
+       "fired": 0,
+       "blocked": 159,
+       "alignments": 3,
+       "align_minutes": 3.03,
+       "calibration_minutes": 2.64,
+       "inspections": 0
+      }
+     ],
+     "energy_cals": [
+      {
+       "cal_id": "em-cal-0001",
+       "day": 0,
+       "factor": 0.999901,
+       "u_k2": 0.009059,
+       "n": 10,
+       "applied": true,
+       "reason": "applied",
+       "change": -9.9e-05
+      },
+      {
+       "cal_id": "em-cal-0002",
+       "day": 3,
+       "factor": 1.0124,
+       "u_k2": 0.008708,
+       "n": 10,
+       "applied": true,
+       "reason": "applied",
+       "change": 0.0125
+      },
+      {
+       "cal_id": "em-cal-0003",
+       "day": 6,
+       "factor": 1.034177,
+       "u_k2": 0.009906,
+       "n": 10,
+       "applied": true,
+       "reason": "applied",
+       "change": 0.021511
+      },
+      {
+       "cal_id": "em-cal-0004",
+       "day": 9,
+       "factor": 1.048404,
+       "u_k2": 0.009863,
+       "n": 10,
+       "applied": true,
+       "reason": "applied",
+       "change": 0.013757
+      }
+     ],
+     "matrix": {
+      "cal_id": "matrix-0008",
+      "day": 2,
+      "source": "measured",
+      "matrix": [
+       [
+        0.000511,
+        -0.00054,
+        -1.5e-05,
+        -0.000394
+       ],
+       [
+        0.000427,
+        0.001254,
+        0.000321,
+        0.000446
+       ],
+       [
+        0.156872,
+        -0.040418,
+        0.189202,
+        -0.021442
+       ],
+       [
+        0.040718,
+        0.213265,
+        0.017573,
+        0.185516
+       ]
+      ],
+      "backlash": [
+       69.96,
+       54.14,
+       79.26,
+       62.6
+      ],
+      "reverse_ratio": [
+       1.2065,
+       0.9432,
+       1.0122,
+       0.9907
+      ],
+      "condition": 644.6928282349287
+     },
+     "true_matrix_per_step": [
+      [
+       0.000864,
+       -0.000214,
+       0.000209,
+       -3.7e-05
+      ],
+      [
+       0.000168,
+       0.001099,
+       2.6e-05,
+       0.000299
+      ],
+      [
+       0.172766,
+       -0.042741,
+       0.130321,
+       -0.022911
+      ],
+      [
+       0.033582,
+       0.219884,
+       0.016001,
+       0.186599
+      ]
+     ]
+    }
+   ]
+  },
+  "no_background": {
+   "description": "No dark frame or baseline subtraction",
+   "summary": {
+    "shots_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "ff_error_p95_urad": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "nf_error_p95_mm": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "energy_delivered_error_p95": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "energy_report_error_p95": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.7724507907784757,
+     "sd": 0.0,
+     "min": 1.7724507907784757,
+     "max": 1.7724507907784757,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2190.0,
+     "sd": 0.0,
+     "min": 2190.0,
+     "max": 2190.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 3.594053174603036,
+     "sd": 0.0,
+     "min": 3.594053174603036,
+     "max": 3.594053174603036,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 10.483877777777806,
+     "sd": 0.0,
+     "min": 10.483877777777806,
+     "max": 10.483877777777806,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_background",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 0.0,
+     "good_shots_per_day": 0.0,
+     "in_spec_share": 0.0,
+     "ff_error_p50_urad": NaN,
+     "ff_error_p95_urad": NaN,
+     "nf_error_p95_mm": NaN,
+     "energy_delivered_error_p95": NaN,
+     "energy_report_error_p95": NaN,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.7724507907784757,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2190,
+     "inspections": 0,
+     "align_minutes_per_day": 3.594053174603036,
+     "alignments_per_day": 3.0,
+     "calibration_minutes_per_day": 10.483877777777806,
+     "matrix_refreshes": 0,
+     "alerts": 72,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1809,
+       "kind": "missed-move",
+       "detail": "M2y -120"
+      },
+      {
+       "day": 1,
+       "t_s": 86,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 276,
+       "kind": "missed-move",
+       "detail": "M1x 17"
+      },
+      {
+       "day": 2,
+       "t_s": 11700,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 3,
+       "t_s": 1854,
+       "kind": "missed-move",
+       "detail": "M1x 300"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15291,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 2176
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 14
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 1,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 8.1
+    }
+   ]
+  },
+  "no_hot_pixel_mask": {
+   "description": "Hot pixels left in the frame",
+   "summary": {
+    "shots_per_day": {
+     "mean": 65.14285714285714,
+     "sd": 0.0,
+     "min": 65.14285714285714,
+     "max": 65.14285714285714,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 61.285714285714285,
+     "sd": 0.0,
+     "min": 61.285714285714285,
+     "max": 61.285714285714285,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9407894736842105,
+     "sd": 0.0,
+     "min": 0.9407894736842105,
+     "max": 0.9407894736842105,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 1.9175514793896908,
+     "sd": 0.0,
+     "min": 1.9175514793896908,
+     "max": 1.9175514793896908,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.169384636681749,
+     "sd": 0.0,
+     "min": 4.169384636681749,
+     "max": 4.169384636681749,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.4287435817934033,
+     "sd": 0.0,
+     "min": 0.4287435817934033,
+     "max": 0.4287435817934033,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.028973986314804034,
+     "sd": 0.0,
+     "min": 0.028973986314804034,
+     "max": 0.028973986314804034,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.015508031523579706,
+     "sd": 0.0,
+     "min": 0.015508031523579706,
+     "max": 0.015508031523579706,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.8084792643425769,
+     "sd": 0.0,
+     "min": 1.8084792643425769,
+     "max": 1.8084792643425769,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 1238.0,
+     "sd": 0.0,
+     "min": 1238.0,
+     "max": 1238.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 16.478965873020496,
+     "sd": 0.0,
+     "min": 16.478965873020496,
+     "max": 16.478965873020496,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 13.071428571428571,
+     "sd": 0.0,
+     "min": 13.071428571428571,
+     "max": 13.071428571428571,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 9.429600000000026,
+     "sd": 0.0,
+     "min": 9.429600000000026,
+     "max": 9.429600000000026,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 18.0,
+     "sd": 0.0,
+     "min": 18.0,
+     "max": 18.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_hot_pixel_mask",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 65.14285714285714,
+     "good_shots_per_day": 61.285714285714285,
+     "in_spec_share": 0.9407894736842105,
+     "ff_error_p50_urad": 1.9175514793896908,
+     "ff_error_p95_urad": 4.169384636681749,
+     "nf_error_p95_mm": 0.4287435817934033,
+     "energy_delivered_error_p95": 0.028973986314804034,
+     "energy_report_error_p95": 0.015508031523579706,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.8084792643425769,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 1238,
+     "inspections": 0,
+     "align_minutes_per_day": 16.478965873020496,
+     "alignments_per_day": 13.071428571428571,
+     "calibration_minutes_per_day": 9.429600000000026,
+     "matrix_refreshes": 18,
+     "alerts": 54,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 1,
+       "t_s": 9,
+       "kind": "missed-move",
+       "detail": "M2x -178"
+      },
+      {
+       "day": 1,
+       "t_s": 7672,
+       "kind": "missed-move",
+       "detail": "M1y -120"
+      },
+      {
+       "day": 1,
+       "t_s": 23185,
+       "kind": "missed-move",
+       "detail": "M2x 102"
+      },
+      {
+       "day": 2,
+       "t_s": 11687,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 6,
+       "t_s": 11192,
+       "kind": "missed-move",
+       "detail": "M1y -117"
+      },
+      {
+       "day": 6,
+       "t_s": 11467,
+       "kind": "missed-move",
+       "detail": "M1x -247"
+      },
+      {
+       "day": 7,
+       "t_s": 145,
+       "kind": "missed-move",
+       "detail": "M2x -120"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 9,
+       "t_s": 1956,
+       "kind": "missed-move",
+       "detail": "M2x -72"
+      },
+      {
+       "day": 10,
+       "t_s": 15295,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 934
+      },
+      {
+       "reason": "alignment reached the travel limit on M2x",
+       "count": 159
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 126
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 6
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 13.47 of tolerance after alignment"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2x"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2x; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2x"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 25.9
+    }
+   ]
+  },
+  "no_iso_aperture": {
+   "description": "Moments over the whole frame instead of the ISO integration area",
+   "summary": {
+    "shots_per_day": {
+     "mean": 16.0,
+     "sd": 0.0,
+     "min": 16.0,
+     "max": 16.0,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 14.857142857142858,
+     "sd": 0.0,
+     "min": 14.857142857142858,
+     "max": 14.857142857142858,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9285714285714286,
+     "sd": 0.0,
+     "min": 0.9285714285714286,
+     "max": 0.9285714285714286,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 2.121183725742192,
+     "sd": 0.0,
+     "min": 2.121183725742192,
+     "max": 2.121183725742192,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.196121133724015,
+     "sd": 0.0,
+     "min": 4.196121133724015,
+     "max": 4.196121133724015,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.348908961031333,
+     "sd": 0.0,
+     "min": 0.348908961031333,
+     "max": 0.348908961031333,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.030395425500050997,
+     "sd": 0.0,
+     "min": 0.030395425500050997,
+     "max": 0.030395425500050997,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.01691584990454223,
+     "sd": 0.0,
+     "min": 0.01691584990454223,
+     "max": 0.01691584990454223,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.7953651286811214,
+     "sd": 0.0,
+     "min": 1.7953651286811214,
+     "max": 1.7953651286811214,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 1950.0,
+     "sd": 0.0,
+     "min": 1950.0,
+     "max": 1950.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 8.105018253969913,
+     "sd": 0.0,
+     "min": 8.105018253969913,
+     "max": 8.105018253969913,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 6.571428571428571,
+     "sd": 0.0,
+     "min": 6.571428571428571,
+     "max": 6.571428571428571,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 10.445799206349237,
+     "sd": 0.0,
+     "min": 10.445799206349237,
+     "max": 10.445799206349237,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 7.0,
+     "sd": 0.0,
+     "min": 7.0,
+     "max": 7.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_iso_aperture",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 16.0,
+     "good_shots_per_day": 14.857142857142858,
+     "in_spec_share": 0.9285714285714286,
+     "ff_error_p50_urad": 2.121183725742192,
+     "ff_error_p95_urad": 4.196121133724015,
+     "nf_error_p95_mm": 0.348908961031333,
+     "energy_delivered_error_p95": 0.030395425500050997,
+     "energy_report_error_p95": 0.01691584990454223,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.7953651286811214,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 1950,
+     "inspections": 0,
+     "align_minutes_per_day": 8.105018253969913,
+     "alignments_per_day": 6.571428571428571,
+     "calibration_minutes_per_day": 10.445799206349237,
+     "matrix_refreshes": 7,
+     "alerts": 67,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 8977,
+       "kind": "missed-move",
+       "detail": "M1y -80"
+      },
+      {
+       "day": 1,
+       "t_s": 15105,
+       "kind": "missed-move",
+       "detail": "M2x -5"
+      },
+      {
+       "day": 2,
+       "t_s": 11769,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 3,
+       "t_s": 1910,
+       "kind": "missed-move",
+       "detail": "M2x -16"
+      },
+      {
+       "day": 3,
+       "t_s": 11186,
+       "kind": "missed-move",
+       "detail": "M1y -59"
+      },
+      {
+       "day": 3,
+       "t_s": 11838,
+       "kind": "missed-move",
+       "detail": "M1x -120"
+      },
+      {
+       "day": 3,
+       "t_s": 12008,
+       "kind": "missed-move",
+       "detail": "M2x 484"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 309,
+       "kind": "missed-move",
+       "detail": "M2x 85"
+      },
+      {
+       "day": 10,
+       "t_s": 15295,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 1651
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 133
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 11
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 14.6
+    }
+   ]
+  },
+  "no_auto_exposure": {
+   "description": "Fixed camera exposure",
+   "summary": {
+    "shots_per_day": {
+     "mean": 12.214285714285714,
+     "sd": 0.0,
+     "min": 12.214285714285714,
+     "max": 12.214285714285714,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 11.642857142857142,
+     "sd": 0.0,
+     "min": 11.642857142857142,
+     "max": 11.642857142857142,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9532163742690059,
+     "sd": 0.0,
+     "min": 0.9532163742690059,
+     "max": 0.9532163742690059,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 2.04420685791918,
+     "sd": 0.0,
+     "min": 2.04420685791918,
+     "max": 2.04420685791918,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.071089121060997,
+     "sd": 0.0,
+     "min": 4.071089121060997,
+     "max": 4.071089121060997,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.41384436895337884,
+     "sd": 0.0,
+     "min": 0.41384436895337884,
+     "max": 0.41384436895337884,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.02899753718811726,
+     "sd": 0.0,
+     "min": 0.02899753718811726,
+     "max": 0.02899753718811726,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.0175191204208906,
+     "sd": 0.0,
+     "min": 0.0175191204208906,
+     "max": 0.0175191204208906,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.788549638401201,
+     "sd": 0.0,
+     "min": 1.788549638401201,
+     "max": 1.788549638401201,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2014.0,
+     "sd": 0.0,
+     "min": 2014.0,
+     "max": 2014.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 5.558798412698564,
+     "sd": 0.0,
+     "min": 5.558798412698564,
+     "max": 5.558798412698564,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 4.857142857142857,
+     "sd": 0.0,
+     "min": 4.857142857142857,
+     "max": 4.857142857142857,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 10.369220634920666,
+     "sd": 0.0,
+     "min": 10.369220634920666,
+     "max": 10.369220634920666,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_auto_exposure",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 12.214285714285714,
+     "good_shots_per_day": 11.642857142857142,
+     "in_spec_share": 0.9532163742690059,
+     "ff_error_p50_urad": 2.04420685791918,
+     "ff_error_p95_urad": 4.071089121060997,
+     "nf_error_p95_mm": 0.41384436895337884,
+     "energy_delivered_error_p95": 0.02899753718811726,
+     "energy_report_error_p95": 0.0175191204208906,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.788549638401201,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2014,
+     "inspections": 0,
+     "align_minutes_per_day": 5.558798412698564,
+     "alignments_per_day": 4.857142857142857,
+     "calibration_minutes_per_day": 10.369220634920666,
+     "matrix_refreshes": 3,
+     "alerts": 68,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 9108,
+       "kind": "missed-move",
+       "detail": "M1y -52"
+      },
+      {
+       "day": 2,
+       "t_s": 11813,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 4,
+       "t_s": 16,
+       "kind": "missed-move",
+       "detail": "M2x -375"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 7,
+       "t_s": 31,
+       "kind": "missed-move",
+       "detail": "M2y 300"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15294,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 1711
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 139
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 11
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 18.35 of tolerance after alignment"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 11.2
+    }
+   ]
+  },
+  "no_backlash": {
+   "description": "Actuator moves without backlash compensation",
+   "summary": {
+    "shots_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "ff_error_p95_urad": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "nf_error_p95_mm": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "energy_delivered_error_p95": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "energy_report_error_p95": {
+     "mean": null,
+     "sd": null,
+     "min": null,
+     "max": null,
+     "n": 0
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.807616790672171,
+     "sd": 0.0,
+     "min": 1.807616790672171,
+     "max": 1.807616790672171,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2200.0,
+     "sd": 0.0,
+     "min": 2200.0,
+     "max": 2200.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 3.2286682539677316,
+     "sd": 0.0,
+     "min": 3.2286682539677316,
+     "max": 3.2286682539677316,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 9.17728571428574,
+     "sd": 0.0,
+     "min": 9.17728571428574,
+     "max": 9.17728571428574,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_backlash",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 0.0,
+     "good_shots_per_day": 0.0,
+     "in_spec_share": 0.0,
+     "ff_error_p50_urad": NaN,
+     "ff_error_p95_urad": NaN,
+     "nf_error_p95_mm": NaN,
+     "energy_delivered_error_p95": NaN,
+     "energy_report_error_p95": NaN,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.807616790672171,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2200,
+     "inspections": 0,
+     "align_minutes_per_day": 3.2286682539677316,
+     "alignments_per_day": 3.0,
+     "calibration_minutes_per_day": 9.17728571428574,
+     "matrix_refreshes": 1,
+     "alerts": 72,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 2,
+       "t_s": 11697,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 8,
+       "t_s": 300,
+       "kind": "missed-move",
+       "detail": "M2y 76"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15261,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 2181
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 11
+      },
+      {
+       "reason": "beam not on the diagnostic cameras",
+       "count": 4
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; pre-shot error at 22.06 of tolerance after alignment",
+       "count": 1
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 1,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; pre-shot error at 22.06 of tolerance after alignment"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; pre-shot error at 22.18 of tolerance after alignment"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; pre-shot error at 19.96 of tolerance after alignment"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 6.2
+    }
+   ]
+  },
+  "no_matrix_refresh": {
+   "description": "The interaction matrix is measured once and never refreshed",
+   "summary": {
+    "shots_per_day": {
+     "mean": 113.5,
+     "sd": 0.0,
+     "min": 113.5,
+     "max": 113.5,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 107.0,
+     "sd": 0.0,
+     "min": 107.0,
+     "max": 107.0,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9427312775330396,
+     "sd": 0.0,
+     "min": 0.9427312775330396,
+     "max": 0.9427312775330396,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 1.909002076735279,
+     "sd": 0.0,
+     "min": 1.909002076735279,
+     "max": 1.909002076735279,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 3.9727006400316522,
+     "sd": 0.0,
+     "min": 3.9727006400316522,
+     "max": 3.9727006400316522,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.40169494532519795,
+     "sd": 0.0,
+     "min": 0.40169494532519795,
+     "max": 0.40169494532519795,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.029109486640191615,
+     "sd": 0.0,
+     "min": 0.029109486640191615,
+     "max": 0.029109486640191615,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.015351369970290513,
+     "sd": 0.0,
+     "min": 0.015351369970290513,
+     "max": 0.015351369970290513,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.8079334375456062,
+     "sd": 0.0,
+     "min": 1.8079334375456062,
+     "max": 1.8079334375456062,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 526.0,
+     "sd": 0.0,
+     "min": 526.0,
+     "max": 526.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 22.259869047626527,
+     "sd": 0.0,
+     "min": 22.259869047626527,
+     "max": 22.259869047626527,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 23.357142857142858,
+     "sd": 0.0,
+     "min": 23.357142857142858,
+     "max": 23.357142857142858,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 8.750430158730168,
+     "sd": 0.0,
+     "min": 8.750430158730168,
+     "max": 8.750430158730168,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_matrix_refresh",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 113.5,
+     "good_shots_per_day": 107.0,
+     "in_spec_share": 0.9427312775330396,
+     "ff_error_p50_urad": 1.909002076735279,
+     "ff_error_p95_urad": 3.9727006400316522,
+     "nf_error_p95_mm": 0.40169494532519795,
+     "energy_delivered_error_p95": 0.029109486640191615,
+     "energy_report_error_p95": 0.015351369970290513,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.8079334375456062,
+     "fluence_blocks": 2,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 526,
+     "inspections": 2,
+     "align_minutes_per_day": 22.259869047626527,
+     "alignments_per_day": 23.357142857142858,
+     "calibration_minutes_per_day": 8.750430158730168,
+     "matrix_refreshes": 0,
+     "alerts": 45,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 4154,
+       "kind": "missed-move",
+       "detail": "M2x -173"
+      },
+      {
+       "day": 2,
+       "t_s": 11762,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 2,
+       "t_s": 11848,
+       "kind": "inspection",
+       "detail": "hot spot cleaned"
+      },
+      {
+       "day": 3,
+       "t_s": 15196,
+       "kind": "missed-move",
+       "detail": "M1x 118"
+      },
+      {
+       "day": 5,
+       "t_s": 6638,
+       "kind": "missed-move",
+       "detail": "M1x 258"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 8,
+       "t_s": 21087,
+       "kind": "missed-move",
+       "detail": "M1x -54"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 9,
+       "t_s": 19567,
+       "kind": "missed-move",
+       "detail": "M2x -146"
+      },
+      {
+       "day": 9,
+       "t_s": 24694,
+       "kind": "missed-move",
+       "detail": "M1x -306"
+      },
+      {
+       "day": 9,
+       "t_s": 24963,
+       "kind": "missed-move",
+       "detail": "M1y 81"
+      },
+      {
+       "day": 10,
+       "t_s": 15214,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15244,
+       "kind": "inspection",
+       "detail": "hot spot cleaned"
+      },
+      {
+       "day": 10,
+       "t_s": 22105,
+       "kind": "missed-move",
+       "detail": "M1x 125"
+      },
+      {
+       "day": 11,
+       "t_s": 400,
+       "kind": "missed-move",
+       "detail": "M2x -223"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 336
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "pre-shot error at 1.72 of tolerance after alignment",
+       "count": 2
+      },
+      {
+       "reason": "predicted peak fluence 3.35 J/cm2 above limit 2.25 J/cm2",
+       "count": 2
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 1,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; pre-shot error at 1.53 of tolerance after alignment"
+      },
+      {
+       "day": 1,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 2,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 3.35 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found and cleaned a hot spot"
+      },
+      {
+       "day": 10,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 3.35 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found and cleaned a hot spot"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 33.5
+    }
+   ]
+  },
+  "scheduled_realign": {
+   "description": "Realign every 30 shots instead of on the pre-shot measurement",
+   "summary": {
+    "shots_per_day": {
+     "mean": 2.142857142857143,
+     "sd": 0.0,
+     "min": 2.142857142857143,
+     "max": 2.142857142857143,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 1.1428571428571428,
+     "sd": 0.0,
+     "min": 1.1428571428571428,
+     "max": 1.1428571428571428,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.5333333333333333,
+     "sd": 0.0,
+     "min": 0.5333333333333333,
+     "max": 0.5333333333333333,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 4.279592284971653,
+     "sd": 0.0,
+     "min": 4.279592284971653,
+     "max": 4.279592284971653,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 6.545458659167242,
+     "sd": 0.0,
+     "min": 6.545458659167242,
+     "max": 6.545458659167242,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.7324911108808675,
+     "sd": 0.0,
+     "min": 0.7324911108808675,
+     "max": 0.7324911108808675,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.031462554537185994,
+     "sd": 0.0,
+     "min": 0.031462554537185994,
+     "max": 0.031462554537185994,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.01837667895361816,
+     "sd": 0.0,
+     "min": 0.01837667895361816,
+     "max": 0.01837667895361816,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.788549638401201,
+     "sd": 0.0,
+     "min": 1.788549638401201,
+     "max": 1.788549638401201,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2148.0,
+     "sd": 0.0,
+     "min": 2148.0,
+     "max": 2148.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 2.621602380952602,
+     "sd": 0.0,
+     "min": 2.621602380952602,
+     "max": 2.621602380952602,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 8.291734920634932,
+     "sd": 0.0,
+     "min": 8.291734920634932,
+     "max": 8.291734920634932,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "scheduled_realign",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 2.142857142857143,
+     "good_shots_per_day": 1.1428571428571428,
+     "in_spec_share": 0.5333333333333333,
+     "ff_error_p50_urad": 4.279592284971653,
+     "ff_error_p95_urad": 6.545458659167242,
+     "nf_error_p95_mm": 0.7324911108808675,
+     "energy_delivered_error_p95": 0.031462554537185994,
+     "energy_report_error_p95": 0.01837667895361816,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.788549638401201,
+     "fluence_blocks": 2,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2148,
+     "inspections": 2,
+     "align_minutes_per_day": 2.621602380952602,
+     "alignments_per_day": 1.0,
+     "calibration_minutes_per_day": 8.291734920634932,
+     "matrix_refreshes": 3,
+     "alerts": 36,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 2,
+       "t_s": 347,
+       "kind": "missed-move",
+       "detail": "M1y -120"
+      },
+      {
+       "day": 2,
+       "t_s": 11711,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 2,
+       "t_s": 11741,
+       "kind": "inspection",
+       "detail": "hot spot cleaned"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15212,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15242,
+       "kind": "inspection",
+       "detail": "hot spot cleaned"
+      },
+      {
+       "day": 12,
+       "t_s": 15,
+       "kind": "missed-move",
+       "detail": "M1x 168"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "beam not on the diagnostic cameras",
+       "count": 1650
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "pre-shot error at 1.45 of tolerance after alignment",
+       "count": 6
+      },
+      {
+       "reason": "pre-shot error at 1.89 of tolerance after alignment",
+       "count": 6
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 3.34 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found and cleaned a hot spot"
+      },
+      {
+       "day": 10,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 3.34 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found and cleaned a hot spot"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 10.3
+    }
+   ]
+  },
+  "no_preshot_pulse": {
+   "description": "Decide from the previous shot instead of a pre-shot low-energy pulse",
+   "summary": {
+    "shots_per_day": {
+     "mean": 134.78571428571428,
+     "sd": 0.0,
+     "min": 134.78571428571428,
+     "max": 134.78571428571428,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 8.857142857142858,
+     "sd": 0.0,
+     "min": 8.857142857142858,
+     "max": 8.857142857142858,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.06571277159512454,
+     "sd": 0.0,
+     "min": 0.06571277159512454,
+     "max": 0.06571277159512454,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 116.12187327209321,
+     "sd": 0.0,
+     "min": 116.12187327209321,
+     "max": 116.12187327209321,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 254.1841774163093,
+     "sd": 0.0,
+     "min": 254.1841774163093,
+     "max": 254.1841774163093,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 5.317429204140591,
+     "sd": 0.0,
+     "min": 5.317429204140591,
+     "max": 5.317429204140591,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.028249009469297735,
+     "sd": 0.0,
+     "min": 0.028249009469297735,
+     "max": 0.028249009469297735,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.01364929174639911,
+     "sd": 0.0,
+     "min": 0.01364929174639911,
+     "max": 0.01364929174639911,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 4.0,
+     "sd": 0.0,
+     "min": 4.0,
+     "max": 4.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 4.40107022215242,
+     "sd": 0.0,
+     "min": 4.40107022215242,
+     "max": 4.40107022215242,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 153.0,
+     "sd": 0.0,
+     "min": 153.0,
+     "max": 153.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 2.0,
+     "sd": 0.0,
+     "min": 2.0,
+     "max": 2.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 3.3377952380952673,
+     "sd": 0.0,
+     "min": 3.3377952380952673,
+     "max": 3.3377952380952673,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 8.291734920634932,
+     "sd": 0.0,
+     "min": 8.291734920634932,
+     "max": 8.291734920634932,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 5.0,
+     "sd": 0.0,
+     "min": 5.0,
+     "max": 5.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_preshot_pulse",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 134.78571428571428,
+     "good_shots_per_day": 8.857142857142858,
+     "in_spec_share": 0.06571277159512454,
+     "ff_error_p50_urad": 116.12187327209321,
+     "ff_error_p95_urad": 254.1841774163093,
+     "nf_error_p95_mm": 5.317429204140591,
+     "energy_delivered_error_p95": 0.028249009469297735,
+     "energy_report_error_p95": 0.01364929174639911,
+     "damage_events": 4,
+     "max_fluence_j_cm2": 4.40107022215242,
+     "fluence_blocks": 2,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 153,
+     "inspections": 2,
+     "align_minutes_per_day": 3.3377952380952673,
+     "alignments_per_day": 1.0,
+     "calibration_minutes_per_day": 8.291734920634932,
+     "matrix_refreshes": 5,
+     "alerts": 36,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": 2,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 2,
+       "t_s": 11762,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 2,
+       "t_s": 11792,
+       "kind": "damage",
+       "detail": "2 damaging shots, first pulse 1001 peak 3.53 J/cm2"
+      },
+      {
+       "day": 2,
+       "t_s": 12154,
+       "kind": "inspection",
+       "detail": "damaged optic replaced"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15252,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15282,
+       "kind": "damage",
+       "detail": "2 damaging shots, first pulse 2957 peak 3.43 J/cm2"
+      },
+      {
+       "day": 10,
+       "t_s": 15644,
+       "kind": "inspection",
+       "detail": "damaged optic replaced"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "predicted peak fluence 4.10 J/cm2 above limit 2.25 J/cm2",
+       "count": 1
+      },
+      {
+       "reason": "predicted peak fluence 4.08 J/cm2 above limit 2.25 J/cm2",
+       "count": 1
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 4.10 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 2,
+       "kind": "inspection",
+       "severity": "critical",
+       "message": "inspection found a damaged optic; it was replaced"
+      },
+      {
+       "day": 10,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 4.08 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "critical",
+       "message": "inspection found a damaged optic; it was replaced"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 11.8
+    }
+   ]
+  },
+  "no_fluence_interlock": {
+   "description": "Energy limit only, no fluence prediction",
+   "summary": {
+    "shots_per_day": {
+     "mean": 12.214285714285714,
+     "sd": 0.0,
+     "min": 12.214285714285714,
+     "max": 12.214285714285714,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 11.642857142857142,
+     "sd": 0.0,
+     "min": 11.642857142857142,
+     "max": 11.642857142857142,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.9532163742690059,
+     "sd": 0.0,
+     "min": 0.9532163742690059,
+     "max": 0.9532163742690059,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 2.04420685791918,
+     "sd": 0.0,
+     "min": 2.04420685791918,
+     "max": 2.04420685791918,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.071089121060997,
+     "sd": 0.0,
+     "min": 4.071089121060997,
+     "max": 4.071089121060997,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.41384436895337884,
+     "sd": 0.0,
+     "min": 0.41384436895337884,
+     "max": 0.41384436895337884,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.02899753718811726,
+     "sd": 0.0,
+     "min": 0.02899753718811726,
+     "max": 0.02899753718811726,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.0175191204208906,
+     "sd": 0.0,
+     "min": 0.0175191204208906,
+     "max": 0.0175191204208906,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.788549638401201,
+     "sd": 0.0,
+     "min": 1.788549638401201,
+     "max": 1.788549638401201,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 2015.0,
+     "sd": 0.0,
+     "min": 2015.0,
+     "max": 2015.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 5.517834920635751,
+     "sd": 0.0,
+     "min": 5.517834920635751,
+     "max": 5.517834920635751,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 4.857142857142857,
+     "sd": 0.0,
+     "min": 4.857142857142857,
+     "max": 4.857142857142857,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 10.368231746031778,
+     "sd": 0.0,
+     "min": 10.368231746031778,
+     "max": 10.368231746031778,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 3.0,
+     "sd": 0.0,
+     "min": 3.0,
+     "max": 3.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_fluence_interlock",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 12.214285714285714,
+     "good_shots_per_day": 11.642857142857142,
+     "in_spec_share": 0.9532163742690059,
+     "ff_error_p50_urad": 2.04420685791918,
+     "ff_error_p95_urad": 4.071089121060997,
+     "nf_error_p95_mm": 0.41384436895337884,
+     "energy_delivered_error_p95": 0.02899753718811726,
+     "energy_report_error_p95": 0.0175191204208906,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.788549638401201,
+     "fluence_blocks": 0,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 2015,
+     "inspections": 0,
+     "align_minutes_per_day": 5.517834920635751,
+     "alignments_per_day": 4.857142857142857,
+     "calibration_minutes_per_day": 10.368231746031778,
+     "matrix_refreshes": 3,
+     "alerts": 68,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 1702,
+       "kind": "missed-move",
+       "detail": "M1y 120"
+      },
+      {
+       "day": 1,
+       "t_s": 9108,
+       "kind": "missed-move",
+       "detail": "M1y -52"
+      },
+      {
+       "day": 2,
+       "t_s": 11813,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15295,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 12,
+       "t_s": 249,
+       "kind": "missed-move",
+       "detail": "M1y -116"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment did not converge 3 times in a row",
+       "count": 1712
+      },
+      {
+       "reason": "actuator not moving the beam: M1y",
+       "count": 151
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 139
+      },
+      {
+       "reason": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras",
+       "count": 11
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 0,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 0,
+       "kind": "service",
+       "severity": "critical",
+       "message": "actuator not moving the beam: M1y"
+      },
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 18.35 of tolerance after alignment"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 3,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 3,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 4,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 5,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 6,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 7,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 8,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 9,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 10,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 11,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 12,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 12,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "reference-overdue",
+       "severity": "warning",
+       "message": "reference meter certificate expired on day 11; energy factor not recalibrated"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row; beam not on the diagnostic cameras"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment did not converge 3 times in a row"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 11.9
+    }
+   ]
+  },
+  "no_cross_cal": {
+   "description": "The energy meter keeps its vendor factor",
+   "summary": {
+    "shots_per_day": {
+     "mean": 140.92857142857142,
+     "sd": 0.0,
+     "min": 140.92857142857142,
+     "max": 140.92857142857142,
+     "n": 1
+    },
+    "good_shots_per_day": {
+     "mean": 55.5,
+     "sd": 0.0,
+     "min": 55.5,
+     "max": 55.5,
+     "n": 1
+    },
+    "in_spec_share": {
+     "mean": 0.3938165230613279,
+     "sd": 0.0,
+     "min": 0.3938165230613279,
+     "max": 0.3938165230613279,
+     "n": 1
+    },
+    "ff_error_p50_urad": {
+     "mean": 1.9025602058527986,
+     "sd": 0.0,
+     "min": 1.9025602058527986,
+     "max": 1.9025602058527986,
+     "n": 1
+    },
+    "ff_error_p95_urad": {
+     "mean": 4.108603404347288,
+     "sd": 0.0,
+     "min": 4.108603404347288,
+     "max": 4.108603404347288,
+     "n": 1
+    },
+    "nf_error_p95_mm": {
+     "mean": 0.4011563459898602,
+     "sd": 0.0,
+     "min": 0.4011563459898602,
+     "max": 0.4011563459898602,
+     "n": 1
+    },
+    "energy_delivered_error_p95": {
+     "mean": 0.0786184870371331,
+     "sd": 0.0,
+     "min": 0.0786184870371331,
+     "max": 0.0786184870371331,
+     "n": 1
+    },
+    "energy_report_error_p95": {
+     "mean": 0.06740619606659563,
+     "sd": 0.0,
+     "min": 0.06740619606659563,
+     "max": 0.06740619606659563,
+     "n": 1
+    },
+    "damage_events": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "max_fluence_j_cm2": {
+     "mean": 1.9035142242841248,
+     "sd": 0.0,
+     "min": 1.9035142242841248,
+     "max": 1.9035142242841248,
+     "n": 1
+    },
+    "fluence_blocks": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 1
+    },
+    "false_fluence_blocks": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "false_block_share": {
+     "mean": 0.0,
+     "sd": 0.0,
+     "min": 0.0,
+     "max": 0.0,
+     "n": 1
+    },
+    "blocked": {
+     "mean": 168.0,
+     "sd": 0.0,
+     "min": 168.0,
+     "max": 168.0,
+     "n": 1
+    },
+    "inspections": {
+     "mean": 1.0,
+     "sd": 0.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 1
+    },
+    "align_minutes_per_day": {
+     "mean": 27.087644444452327,
+     "sd": 0.0,
+     "min": 27.087644444452327,
+     "max": 27.087644444452327,
+     "n": 1
+    },
+    "alignments_per_day": {
+     "mean": 23.714285714285715,
+     "sd": 0.0,
+     "min": 23.714285714285715,
+     "max": 23.714285714285715,
+     "n": 1
+    },
+    "calibration_minutes_per_day": {
+     "mean": 0.4562293650793639,
+     "sd": 0.0,
+     "min": 0.4562293650793639,
+     "max": 0.4562293650793639,
+     "n": 1
+    },
+    "matrix_refreshes": {
+     "mean": 31.0,
+     "sd": 0.0,
+     "min": 31.0,
+     "max": 31.0,
+     "n": 1
+    }
+   },
+   "runs": [
+    {
+     "design": "no_cross_cal",
+     "seed": 913,
+     "days": 14,
+     "shots_per_day": 140.92857142857142,
+     "good_shots_per_day": 55.5,
+     "in_spec_share": 0.3938165230613279,
+     "ff_error_p50_urad": 1.9025602058527986,
+     "ff_error_p95_urad": 4.108603404347288,
+     "nf_error_p95_mm": 0.4011563459898602,
+     "energy_delivered_error_p95": 0.0786184870371331,
+     "energy_report_error_p95": 0.06740619606659563,
+     "damage_events": 0,
+     "max_fluence_j_cm2": 1.9035142242841248,
+     "fluence_blocks": 1,
+     "false_fluence_blocks": 0,
+     "false_block_share": 0.0,
+     "blocked": 168,
+     "inspections": 1,
+     "align_minutes_per_day": 27.087644444452327,
+     "alignments_per_day": 23.714285714285715,
+     "calibration_minutes_per_day": 0.4562293650793639,
+     "matrix_refreshes": 31,
+     "alerts": 36,
+     "hot_spot_days": [
+      2,
+      10
+     ],
+     "first_damage_day": null,
+     "world_events": [
+      {
+       "day": 0,
+       "t_s": 270,
+       "kind": "missed-move",
+       "detail": "M1y 177"
+      },
+      {
+       "day": 1,
+       "t_s": 301,
+       "kind": "missed-move",
+       "detail": "M2x -110"
+      },
+      {
+       "day": 1,
+       "t_s": 18546,
+       "kind": "missed-move",
+       "detail": "M2x -158"
+      },
+      {
+       "day": 2,
+       "t_s": 224,
+       "kind": "missed-move",
+       "detail": "M1x -531"
+      },
+      {
+       "day": 2,
+       "t_s": 11738,
+       "kind": "hotspot",
+       "detail": "at 6.0,-4.1 mm"
+      },
+      {
+       "day": 4,
+       "t_s": 492,
+       "kind": "missed-move",
+       "detail": "M1y -559"
+      },
+      {
+       "day": 4,
+       "t_s": 5425,
+       "kind": "missed-move",
+       "detail": "M1y -269"
+      },
+      {
+       "day": 4,
+       "t_s": 18900,
+       "kind": "missed-move",
+       "detail": "M1y -152"
+      },
+      {
+       "day": 5,
+       "t_s": 25053,
+       "kind": "missed-move",
+       "detail": "M1x -120"
+      },
+      {
+       "day": 5,
+       "t_s": 26831,
+       "kind": "missed-move",
+       "detail": "M1y -263"
+      },
+      {
+       "day": 5,
+       "t_s": 28629,
+       "kind": "missed-move",
+       "detail": "M1y 58"
+      },
+      {
+       "day": 6,
+       "t_s": 0,
+       "kind": "wear",
+       "detail": "M2x step x0.65"
+      },
+      {
+       "day": 6,
+       "t_s": 9733,
+       "kind": "missed-move",
+       "detail": "M2x -220"
+      },
+      {
+       "day": 7,
+       "t_s": 18963,
+       "kind": "missed-move",
+       "detail": "M2x -121"
+      },
+      {
+       "day": 8,
+       "t_s": 16656,
+       "kind": "missed-move",
+       "detail": "M1y 39"
+      },
+      {
+       "day": 9,
+       "t_s": 0,
+       "kind": "camera-gain",
+       "detail": "nf_camera gain x1.6"
+      },
+      {
+       "day": 10,
+       "t_s": 15248,
+       "kind": "hotspot",
+       "detail": "at -6.0,5.6 mm"
+      },
+      {
+       "day": 10,
+       "t_s": 15278,
+       "kind": "inspection",
+       "detail": "hot spot cleaned"
+      },
+      {
+       "day": 11,
+       "t_s": 9919,
+       "kind": "missed-move",
+       "detail": "M1y 118"
+      },
+      {
+       "day": 11,
+       "t_s": 22831,
+       "kind": "missed-move",
+       "detail": "M1y 20"
+      },
+      {
+       "day": 12,
+       "t_s": 264,
+       "kind": "missed-move",
+       "detail": "M1x 690"
+      },
+      {
+       "day": 12,
+       "t_s": 19290,
+       "kind": "missed-move",
+       "detail": "M1x 27"
+      },
+      {
+       "day": 12,
+       "t_s": 23891,
+       "kind": "missed-move",
+       "detail": "M1y -174"
+      },
+      {
+       "day": 12,
+       "t_s": 23926,
+       "kind": "missed-move",
+       "detail": "M2x -33"
+      }
+     ],
+     "block_reasons": [
+      {
+       "reason": "alignment reached the travel limit on M2y",
+       "count": 154
+      },
+      {
+       "reason": "alignment reached the travel limit on M2y; pre-shot error at 17.48 of tolerance after alignment",
+       "count": 1
+      },
+      {
+       "reason": "pre-shot error at 1.09 of tolerance after alignment",
+       "count": 1
+      },
+      {
+       "reason": "pre-shot error at 1.19 of tolerance after alignment",
+       "count": 1
+      }
+     ],
+     "alerts_list": [
+      {
+       "day": 2,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 17.48 of tolerance after alignment"
+      },
+      {
+       "day": 2,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 10,
+       "kind": "fluence",
+       "severity": "critical",
+       "message": "predicted peak fluence 3.34 J/cm2 above limit 2.25 J/cm2"
+      },
+      {
+       "day": 10,
+       "kind": "inspection",
+       "severity": "info",
+       "message": "inspection found and cleaned a hot spot"
+      },
+      {
+       "day": 13,
+       "kind": "actuator",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y; pre-shot error at 3.47 of tolerance after alignment"
+      },
+      {
+       "day": 13,
+       "kind": "service",
+       "severity": "critical",
+       "message": "alignment reached the travel limit on M2y"
+      }
+     ],
+     "engine": "beamcore (C++)",
+     "seconds": 43.2
+    }
+   ]
+  }
+ },
+ "gates": [
+  {
+   "gate": "damage_events",
+   "value": 0.0,
+   "rule": {
+    "max": 0
+   },
+   "pass": true
+  },
+  {
+   "gate": "in_spec_share",
+   "value": 0.9532163742690059,
+   "rule": {
+    "min": 0.95
+   },
+   "pass": true
+  },
+  {
+   "gate": "ff_error_p95_urad",
+   "value": 4.071089121060997,
+   "rule": {
+    "max": 5.0
+   },
+   "pass": true
+  },
+  {
+   "gate": "energy_report_error_p95",
+   "value": 0.0175191204208906,
+   "rule": {
+    "max": 0.015
+   },
+   "pass": false
+  },
+  {
+   "gate": "false_block_share",
+   "value": 0.0,
+   "rule": {
+    "max": 0.02
+   },
+   "pass": true
+  },
+  {
+   "gate": "good_shots_per_day_vs_manual",
+   "value": 0.5699300699300699,
+   "rule": {
+    "min": 1.5
+   },
+   "pass": false
+  }
+ ],
+ "seconds": 130.3
+}
