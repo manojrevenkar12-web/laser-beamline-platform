@@ -6,7 +6,7 @@
   13
  ],
  "days": 12,
- "commit": "unknown",
+ "commit": "02f62628c48075c54ffbcdd70a4e6ede003ce732",
  "designs": {
   "manual_ops": {
    "description": "Status quo: operators align by eye with the commissioning matrix, fixed exposure, vendor energy factor, energy limit only, optics checked every morning",
@@ -349,7 +349,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 8.8
+     "seconds": 7.7
     },
     {
      "design": "manual_ops",
@@ -554,7 +554,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 7.8
+     "seconds": 8.2
     },
     {
      "design": "manual_ops",
@@ -759,7 +759,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 7.8
+     "seconds": 7.4
     }
    ]
   },
@@ -1104,7 +1104,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 7.8
+     "seconds": 7.6
     },
     {
      "design": "manual_iso",
@@ -1309,7 +1309,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 8.1
+     "seconds": 7.1
     },
     {
      "design": "manual_iso",
@@ -1514,7 +1514,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 8.1
+     "seconds": 6.8
     }
    ]
   },
@@ -1920,7 +1920,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 10.1
+     "seconds": 10.8
     },
     {
      "design": "auto_naive",
@@ -2186,7 +2186,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 11.0
+     "seconds": 10.5
     },
     {
      "design": "auto_naive",
@@ -2436,7 +2436,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 8.9
+     "seconds": 10.1
     }
    ]
   },
@@ -2674,7 +2674,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 21.3,
+     "seconds": 21.4,
      "daily": [
       {
        "day": 0,
@@ -2998,7 +2998,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 23.9,
+     "seconds": 24.1,
      "daily": [
       {
        "day": 0,
@@ -3314,7 +3314,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 22.5,
+     "seconds": 23.0,
      "daily": [
       {
        "day": 0,
@@ -3950,7 +3950,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 6.4
+     "seconds": 6.9
     },
     {
      "design": "no_background",
@@ -4224,7 +4224,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 6.9
+     "seconds": 7.5
     },
     {
      "design": "no_background",
@@ -4498,7 +4498,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 6.6
+     "seconds": 7.6
     }
    ]
   },
@@ -4742,7 +4742,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 21.7
+     "seconds": 21.8
     },
     {
      "design": "no_hot_pixel_mask",
@@ -4840,7 +4840,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 22.2
+     "seconds": 21.8
     },
     {
      "design": "no_hot_pixel_mask",
@@ -4934,7 +4934,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 21.9
+     "seconds": 21.1
     }
    ]
   },
@@ -5168,7 +5168,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 23.9
+     "seconds": 25.5
     },
     {
      "design": "no_iso_aperture",
@@ -5270,7 +5270,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 26.3
+     "seconds": 25.6
     },
     {
      "design": "no_iso_aperture",
@@ -5374,7 +5374,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 27.9
+     "seconds": 23.9
     }
    ]
   },
@@ -5608,7 +5608,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 21.9
+     "seconds": 20.2
     },
     {
      "design": "no_auto_exposure",
@@ -5702,7 +5702,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 22.5
+     "seconds": 21.1
     },
     {
      "design": "no_auto_exposure",
@@ -5800,7 +5800,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 22.5
+     "seconds": 21.7
     }
    ]
   },
@@ -6078,7 +6078,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 23.3
+     "seconds": 24.1
     },
     {
      "design": "no_backlash",
@@ -6302,7 +6302,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 9.4
+     "seconds": 10.2
     },
     {
      "design": "no_backlash",
@@ -6404,7 +6404,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 27.4
+     "seconds": 27.1
     }
    ]
   },
@@ -6638,7 +6638,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 19.6
+     "seconds": 19.2
     },
     {
      "design": "no_matrix_refresh",
@@ -6740,7 +6740,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 19.5
+     "seconds": 19.6
     },
     {
      "design": "no_matrix_refresh",
@@ -6838,7 +6838,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 19.8
+     "seconds": 20.5
     }
    ]
   },
@@ -7080,7 +7080,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 9.7
+     "seconds": 10.1
     },
     {
      "design": "scheduled_realign",
@@ -7182,7 +7182,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 12.5
+     "seconds": 13.3
     },
     {
      "design": "scheduled_realign",
@@ -7284,7 +7284,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 12.9
+     "seconds": 14.8
     }
    ]
   },
@@ -7530,7 +7530,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 8.4
+     "seconds": 8.9
     },
     {
      "design": "no_preshot_pulse",
@@ -7636,7 +7636,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 10.9
+     "seconds": 11.9
     },
     {
      "design": "no_preshot_pulse",
@@ -7742,7 +7742,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 10.8
+     "seconds": 11.4
     }
    ]
   },
@@ -7984,7 +7984,7 @@
      "block_reasons": [],
      "alerts_list": [],
      "engine": "beamcore (C++)",
-     "seconds": 23.1
+     "seconds": 23.2
     },
     {
      "design": "no_fluence_interlock",
@@ -8086,7 +8086,7 @@
      "block_reasons": [],
      "alerts_list": [],
      "engine": "beamcore (C++)",
-     "seconds": 25.6
+     "seconds": 24.2
     },
     {
      "design": "no_fluence_interlock",
@@ -8193,7 +8193,7 @@
      ],
      "alerts_list": [],
      "engine": "beamcore (C++)",
-     "seconds": 21.5
+     "seconds": 23.8
     }
    ]
   },
@@ -8427,7 +8427,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 20.1
+     "seconds": 19.8
     },
     {
      "design": "no_cross_cal",
@@ -8521,7 +8521,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 25.0
+     "seconds": 26.1
     },
     {
      "design": "no_cross_cal",
@@ -8623,7 +8623,7 @@
       }
      ],
      "engine": "beamcore (C++)",
-     "seconds": 25.0
+     "seconds": 25.8
     }
    ]
   }
@@ -8678,5 +8678,5 @@
    "pass": true
   }
  ],
- "seconds": 353.3
+ "seconds": 352.7
 }
